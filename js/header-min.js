@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$("li.nav-mobile-dropdown-toggler").on("click",function(){$(this).parent().find("ul").toggle(),$(this).find("i").toggleClass("fa-caret-down"),$(this).find("i").toggleClass("fa-caret-up")})});
