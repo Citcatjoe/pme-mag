@@ -21,10 +21,30 @@
 
 @font-face {
 	font-family: 'Duplicate Slab';
+	src: url('../fonts/DuplicateSlab-RegularItalic.eot');
+	src: url('../fonts/DuplicateSlab-RegularItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DuplicateSlab-RegularItalic.woff') format('woff'),
+		url('../fonts/DuplicateSlab-RegularItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Duplicate Slab';
 	src: url('../fonts/DuplicateSlab-Medium.eot');
 	src: url('../fonts/DuplicateSlab-Medium.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/DuplicateSlab-Medium.woff') format('woff'),
 		url('../fonts/DuplicateSlab-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Austin News Text Roman';
+	src: url('../fonts/AustinNewsText-Roman.eot');
+	src: url('../fonts/AustinNewsText-Roman.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AustinNewsText-Roman.woff') format('woff'),
+		url('../fonts/AustinNewsText-Roman.ttf') format('truetype');
 	font-weight: 500;
 	font-style: normal;
 }

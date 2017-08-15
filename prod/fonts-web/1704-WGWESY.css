@@ -1,0 +1,962 @@
+/*
+        This font software is the property of Commercial Type.
+
+        You may not modify the font software, use it on another website, or install it on a computer.
+
+        License information is available at http://commercialtype.com/eula
+        For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+        Copyright (C) 2017 Schwartzco Inc.
+        License: 1704-WGWESY     
+*/
+
+
+@font-face {
+  font-family: 'Atlas Grotesk Web';
+  src: url('AtlasGrotesk-BlackItalic-Web.eot');
+  src: url('AtlasGrotesk-BlackItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('AtlasGrotesk-BlackItalic-Web.woff2') format('woff2'),
+       url('AtlasGrotesk-BlackItalic-Web.woff') format('woff');
+  font-weight:  900;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.AtlasGrotesk-BlackItalic-Web {
+  font-family: 'Atlas Grotesk Web';
+  font-weight:  900;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Atlas Grotesk Web';
+  src: url('AtlasGrotesk-Black-Web.eot');
+  src: url('AtlasGrotesk-Black-Web.eot?#iefix') format('embedded-opentype'),
+       url('AtlasGrotesk-Black-Web.woff2') format('woff2'),
+       url('AtlasGrotesk-Black-Web.woff') format('woff');
+  font-weight:  900;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AtlasGrotesk-Black-Web {
+  font-family: 'Atlas Grotesk Web';
+  font-weight:  900;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Atlas Grotesk Web';
+  src: url('AtlasGrotesk-BoldItalic-Web.eot');
+  src: url('AtlasGrotesk-BoldItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('AtlasGrotesk-BoldItalic-Web.woff2') format('woff2'),
+       url('AtlasGrotesk-BoldItalic-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.AtlasGrotesk-BoldItalic-Web {
+  font-family: 'Atlas Grotesk Web';
+  font-weight:  700;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Atlas Grotesk Web';
+  src: url('AtlasGrotesk-Bold-Web.eot');
+  src: url('AtlasGrotesk-Bold-Web.eot?#iefix') format('embedded-opentype'),
+       url('AtlasGrotesk-Bold-Web.woff2') format('woff2'),
+       url('AtlasGrotesk-Bold-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AtlasGrotesk-Bold-Web {
+  font-family: 'Atlas Grotesk Web';
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Atlas Grotesk Web';
+  src: url('AtlasGrotesk-MediumItalic-Web.eot');
+  src: url('AtlasGrotesk-MediumItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('AtlasGrotesk-MediumItalic-Web.woff2') format('woff2'),
+       url('AtlasGrotesk-MediumItalic-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.AtlasGrotesk-MediumItalic-Web {
+  font-family: 'Atlas Grotesk Web';
+  font-weight:  500;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Atlas Grotesk Web';
+  src: url('AtlasGrotesk-Medium-Web.eot');
+  src: url('AtlasGrotesk-Medium-Web.eot?#iefix') format('embedded-opentype'),
+       url('AtlasGrotesk-Medium-Web.woff2') format('woff2'),
+       url('AtlasGrotesk-Medium-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AtlasGrotesk-Medium-Web {
+  font-family: 'Atlas Grotesk Web';
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Atlas Grotesk Web';
+  src: url('AtlasGrotesk-RegularItalic-Web.eot');
+  src: url('AtlasGrotesk-RegularItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('AtlasGrotesk-RegularItalic-Web.woff2') format('woff2'),
+       url('AtlasGrotesk-RegularItalic-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.AtlasGrotesk-RegularItalic-Web {
+  font-family: 'Atlas Grotesk Web';
+  font-weight:  400;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Atlas Grotesk Web';
+  src: url('AtlasGrotesk-Regular-Web.eot');
+  src: url('AtlasGrotesk-Regular-Web.eot?#iefix') format('embedded-opentype'),
+       url('AtlasGrotesk-Regular-Web.woff2') format('woff2'),
+       url('AtlasGrotesk-Regular-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AtlasGrotesk-Regular-Web {
+  font-family: 'Atlas Grotesk Web';
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Atlas Grotesk Web';
+  src: url('AtlasGrotesk-LightItalic-Web.eot');
+  src: url('AtlasGrotesk-LightItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('AtlasGrotesk-LightItalic-Web.woff2') format('woff2'),
+       url('AtlasGrotesk-LightItalic-Web.woff') format('woff');
+  font-weight:  300;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.AtlasGrotesk-LightItalic-Web {
+  font-family: 'Atlas Grotesk Web';
+  font-weight:  300;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Atlas Grotesk Web';
+  src: url('AtlasGrotesk-Light-Web.eot');
+  src: url('AtlasGrotesk-Light-Web.eot?#iefix') format('embedded-opentype'),
+       url('AtlasGrotesk-Light-Web.woff2') format('woff2'),
+       url('AtlasGrotesk-Light-Web.woff') format('woff');
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AtlasGrotesk-Light-Web {
+  font-family: 'Atlas Grotesk Web';
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Atlas Grotesk Web';
+  src: url('AtlasGrotesk-ThinItalic-Web.eot');
+  src: url('AtlasGrotesk-ThinItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('AtlasGrotesk-ThinItalic-Web.woff2') format('woff2'),
+       url('AtlasGrotesk-ThinItalic-Web.woff') format('woff');
+  font-weight:  100;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.AtlasGrotesk-ThinItalic-Web {
+  font-family: 'Atlas Grotesk Web';
+  font-weight:  100;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Atlas Grotesk Web';
+  src: url('AtlasGrotesk-Thin-Web.eot');
+  src: url('AtlasGrotesk-Thin-Web.eot?#iefix') format('embedded-opentype'),
+       url('AtlasGrotesk-Thin-Web.woff2') format('woff2'),
+       url('AtlasGrotesk-Thin-Web.woff') format('woff');
+  font-weight:  100;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AtlasGrotesk-Thin-Web {
+  font-family: 'Atlas Grotesk Web';
+  font-weight:  100;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Duplicate Slab Web';
+  src: url('DuplicateSlab-BlackItalic-Web.eot');
+  src: url('DuplicateSlab-BlackItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('DuplicateSlab-BlackItalic-Web.woff2') format('woff2'),
+       url('DuplicateSlab-BlackItalic-Web.woff') format('woff');
+  font-weight:  900;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.DuplicateSlab-BlackItalic-Web {
+  font-family: 'Duplicate Slab Web';
+  font-weight:  900;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Duplicate Slab Web';
+  src: url('DuplicateSlab-Black-Web.eot');
+  src: url('DuplicateSlab-Black-Web.eot?#iefix') format('embedded-opentype'),
+       url('DuplicateSlab-Black-Web.woff2') format('woff2'),
+       url('DuplicateSlab-Black-Web.woff') format('woff');
+  font-weight:  900;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.DuplicateSlab-Black-Web {
+  font-family: 'Duplicate Slab Web';
+  font-weight:  900;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Duplicate Slab Web';
+  src: url('DuplicateSlab-BoldItalic-Web.eot');
+  src: url('DuplicateSlab-BoldItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('DuplicateSlab-BoldItalic-Web.woff2') format('woff2'),
+       url('DuplicateSlab-BoldItalic-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.DuplicateSlab-BoldItalic-Web {
+  font-family: 'Duplicate Slab Web';
+  font-weight:  700;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Duplicate Slab Web';
+  src: url('DuplicateSlab-Bold-Web.eot');
+  src: url('DuplicateSlab-Bold-Web.eot?#iefix') format('embedded-opentype'),
+       url('DuplicateSlab-Bold-Web.woff2') format('woff2'),
+       url('DuplicateSlab-Bold-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.DuplicateSlab-Bold-Web {
+  font-family: 'Duplicate Slab Web';
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Duplicate Slab Web';
+  src: url('DuplicateSlab-MediumItalic-Web.eot');
+  src: url('DuplicateSlab-MediumItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('DuplicateSlab-MediumItalic-Web.woff2') format('woff2'),
+       url('DuplicateSlab-MediumItalic-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.DuplicateSlab-MediumItalic-Web {
+  font-family: 'Duplicate Slab Web';
+  font-weight:  500;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Duplicate Slab Web';
+  src: url('DuplicateSlab-Medium-Web.eot');
+  src: url('DuplicateSlab-Medium-Web.eot?#iefix') format('embedded-opentype'),
+       url('DuplicateSlab-Medium-Web.woff2') format('woff2'),
+       url('DuplicateSlab-Medium-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.DuplicateSlab-Medium-Web {
+  font-family: 'Duplicate Slab Web';
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Duplicate Slab Web';
+  src: url('DuplicateSlab-RegularItalic-Web.eot');
+  src: url('DuplicateSlab-RegularItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('DuplicateSlab-RegularItalic-Web.woff2') format('woff2'),
+       url('DuplicateSlab-RegularItalic-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.DuplicateSlab-RegularItalic-Web {
+  font-family: 'Duplicate Slab Web';
+  font-weight:  400;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Duplicate Slab Web';
+  src: url('DuplicateSlab-Regular-Web.eot');
+  src: url('DuplicateSlab-Regular-Web.eot?#iefix') format('embedded-opentype'),
+       url('DuplicateSlab-Regular-Web.woff2') format('woff2'),
+       url('DuplicateSlab-Regular-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.DuplicateSlab-Regular-Web {
+  font-family: 'Duplicate Slab Web';
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Duplicate Slab Web';
+  src: url('DuplicateSlab-LightItalic-Web.eot');
+  src: url('DuplicateSlab-LightItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('DuplicateSlab-LightItalic-Web.woff2') format('woff2'),
+       url('DuplicateSlab-LightItalic-Web.woff') format('woff');
+  font-weight:  300;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.DuplicateSlab-LightItalic-Web {
+  font-family: 'Duplicate Slab Web';
+  font-weight:  300;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Duplicate Slab Web';
+  src: url('DuplicateSlab-Light-Web.eot');
+  src: url('DuplicateSlab-Light-Web.eot?#iefix') format('embedded-opentype'),
+       url('DuplicateSlab-Light-Web.woff2') format('woff2'),
+       url('DuplicateSlab-Light-Web.woff') format('woff');
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.DuplicateSlab-Light-Web {
+  font-family: 'Duplicate Slab Web';
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Duplicate Slab Web';
+  src: url('DuplicateSlab-ThinItalic-Web.eot');
+  src: url('DuplicateSlab-ThinItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('DuplicateSlab-ThinItalic-Web.woff2') format('woff2'),
+       url('DuplicateSlab-ThinItalic-Web.woff') format('woff');
+  font-weight:  100;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.DuplicateSlab-ThinItalic-Web {
+  font-family: 'Duplicate Slab Web';
+  font-weight:  100;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Duplicate Slab Web';
+  src: url('DuplicateSlab-Thin-Web.eot');
+  src: url('DuplicateSlab-Thin-Web.eot?#iefix') format('embedded-opentype'),
+       url('DuplicateSlab-Thin-Web.woff2') format('woff2'),
+       url('DuplicateSlab-Thin-Web.woff') format('woff');
+  font-weight:  100;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.DuplicateSlab-Thin-Web {
+  font-family: 'Duplicate Slab Web';
+  font-weight:  100;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Headline Web';
+  src: url('AustinNewsHeadline-UltraItalic-Web.eot');
+  src: url('AustinNewsHeadline-UltraItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsHeadline-UltraItalic-Web.woff2') format('woff2'),
+       url('AustinNewsHeadline-UltraItalic-Web.woff') format('woff');
+  font-weight:  800;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.AustinNewsHeadline-UltraItalic-Web {
+  font-family: 'Austin News Headline Web';
+  font-weight:  800;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Headline Web';
+  src: url('AustinNewsHeadline-Ultra-Web.eot');
+  src: url('AustinNewsHeadline-Ultra-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsHeadline-Ultra-Web.woff2') format('woff2'),
+       url('AustinNewsHeadline-Ultra-Web.woff') format('woff');
+  font-weight:  800;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AustinNewsHeadline-Ultra-Web {
+  font-family: 'Austin News Headline Web';
+  font-weight:  800;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Headline Web';
+  src: url('AustinNewsHeadline-FatItalic-Web.eot');
+  src: url('AustinNewsHeadline-FatItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsHeadline-FatItalic-Web.woff2') format('woff2'),
+       url('AustinNewsHeadline-FatItalic-Web.woff') format('woff');
+  font-weight:  900;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.AustinNewsHeadline-FatItalic-Web {
+  font-family: 'Austin News Headline Web';
+  font-weight:  900;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Headline Web';
+  src: url('AustinNewsHeadline-Fat-Web.eot');
+  src: url('AustinNewsHeadline-Fat-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsHeadline-Fat-Web.woff2') format('woff2'),
+       url('AustinNewsHeadline-Fat-Web.woff') format('woff');
+  font-weight:  900;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AustinNewsHeadline-Fat-Web {
+  font-family: 'Austin News Headline Web';
+  font-weight:  900;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Headline Web';
+  src: url('AustinNewsHeadline-ExtraboldItalic-Web.eot');
+  src: url('AustinNewsHeadline-ExtraboldItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsHeadline-ExtraboldItalic-Web.woff2') format('woff2'),
+       url('AustinNewsHeadline-ExtraboldItalic-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.AustinNewsHeadline-ExtraboldItalic-Web {
+  font-family: 'Austin News Headline Web';
+  font-weight:  700;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Headline Web';
+  src: url('AustinNewsHeadline-Extrabold-Web.eot');
+  src: url('AustinNewsHeadline-Extrabold-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsHeadline-Extrabold-Web.woff2') format('woff2'),
+       url('AustinNewsHeadline-Extrabold-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AustinNewsHeadline-Extrabold-Web {
+  font-family: 'Austin News Headline Web';
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Headline Web';
+  src: url('AustinNewsHeadline-BoldItalic-Web.eot');
+  src: url('AustinNewsHeadline-BoldItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsHeadline-BoldItalic-Web.woff2') format('woff2'),
+       url('AustinNewsHeadline-BoldItalic-Web.woff') format('woff');
+  font-weight:  600;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.AustinNewsHeadline-BoldItalic-Web {
+  font-family: 'Austin News Headline Web';
+  font-weight:  600;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Headline Web';
+  src: url('AustinNewsHeadline-Bold-Web.eot');
+  src: url('AustinNewsHeadline-Bold-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsHeadline-Bold-Web.woff2') format('woff2'),
+       url('AustinNewsHeadline-Bold-Web.woff') format('woff');
+  font-weight:  600;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AustinNewsHeadline-Bold-Web {
+  font-family: 'Austin News Headline Web';
+  font-weight:  600;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Headline Web';
+  src: url('AustinNewsHeadline-SemiboldItalic-Web.eot');
+  src: url('AustinNewsHeadline-SemiboldItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsHeadline-SemiboldItalic-Web.woff2') format('woff2'),
+       url('AustinNewsHeadline-SemiboldItalic-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.AustinNewsHeadline-SemiboldItalic-Web {
+  font-family: 'Austin News Headline Web';
+  font-weight:  500;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Headline Web';
+  src: url('AustinNewsHeadline-Semibold-Web.eot');
+  src: url('AustinNewsHeadline-Semibold-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsHeadline-Semibold-Web.woff2') format('woff2'),
+       url('AustinNewsHeadline-Semibold-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AustinNewsHeadline-Semibold-Web {
+  font-family: 'Austin News Headline Web';
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Headline Web';
+  src: url('AustinNewsHeadline-MediumItalic-Web.eot');
+  src: url('AustinNewsHeadline-MediumItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsHeadline-MediumItalic-Web.woff2') format('woff2'),
+       url('AustinNewsHeadline-MediumItalic-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.AustinNewsHeadline-MediumItalic-Web {
+  font-family: 'Austin News Headline Web';
+  font-weight:  400;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Headline Web';
+  src: url('AustinNewsHeadline-Medium-Web.eot');
+  src: url('AustinNewsHeadline-Medium-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsHeadline-Medium-Web.woff2') format('woff2'),
+       url('AustinNewsHeadline-Medium-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AustinNewsHeadline-Medium-Web {
+  font-family: 'Austin News Headline Web';
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Headline Web';
+  src: url('AustinNewsHeadline-Italic-Web.eot');
+  src: url('AustinNewsHeadline-Italic-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsHeadline-Italic-Web.woff2') format('woff2'),
+       url('AustinNewsHeadline-Italic-Web.woff') format('woff');
+  font-weight:  300;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.AustinNewsHeadline-Italic-Web {
+  font-family: 'Austin News Headline Web';
+  font-weight:  300;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Headline Web';
+  src: url('AustinNewsHeadline-Roman-Web.eot');
+  src: url('AustinNewsHeadline-Roman-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsHeadline-Roman-Web.woff2') format('woff2'),
+       url('AustinNewsHeadline-Roman-Web.woff') format('woff');
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AustinNewsHeadline-Roman-Web {
+  font-family: 'Austin News Headline Web';
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Headline Web';
+  src: url('AustinNewsHeadline-LightItalic-Web.eot');
+  src: url('AustinNewsHeadline-LightItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsHeadline-LightItalic-Web.woff2') format('woff2'),
+       url('AustinNewsHeadline-LightItalic-Web.woff') format('woff');
+  font-weight:  200;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.AustinNewsHeadline-LightItalic-Web {
+  font-family: 'Austin News Headline Web';
+  font-weight:  200;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Headline Web';
+  src: url('AustinNewsHeadline-Light-Web.eot');
+  src: url('AustinNewsHeadline-Light-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsHeadline-Light-Web.woff2') format('woff2'),
+       url('AustinNewsHeadline-Light-Web.woff') format('woff');
+  font-weight:  200;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AustinNewsHeadline-Light-Web {
+  font-family: 'Austin News Headline Web';
+  font-weight:  200;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Text Web';
+  src: url('AustinNewsText-FatItalic-Web.eot');
+  src: url('AustinNewsText-FatItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsText-FatItalic-Web.woff2') format('woff2'),
+       url('AustinNewsText-FatItalic-Web.woff') format('woff');
+  font-weight:  900;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.AustinNewsText-FatItalic-Web {
+  font-family: 'Austin News Text Web';
+  font-weight:  900;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Text Web';
+  src: url('AustinNewsText-Fat-Web.eot');
+  src: url('AustinNewsText-Fat-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsText-Fat-Web.woff2') format('woff2'),
+       url('AustinNewsText-Fat-Web.woff') format('woff');
+  font-weight:  900;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AustinNewsText-Fat-Web {
+  font-family: 'Austin News Text Web';
+  font-weight:  900;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Text Web';
+  src: url('AustinNewsText-BoldItalic-Web.eot');
+  src: url('AustinNewsText-BoldItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsText-BoldItalic-Web.woff2') format('woff2'),
+       url('AustinNewsText-BoldItalic-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.AustinNewsText-BoldItalic-Web {
+  font-family: 'Austin News Text Web';
+  font-weight:  700;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Text Web';
+  src: url('AustinNewsText-Bold-Web.eot');
+  src: url('AustinNewsText-Bold-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsText-Bold-Web.woff2') format('woff2'),
+       url('AustinNewsText-Bold-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AustinNewsText-Bold-Web {
+  font-family: 'Austin News Text Web';
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Text Web';
+  src: url('AustinNewsText-SemiboldItalic-Web.eot');
+  src: url('AustinNewsText-SemiboldItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsText-SemiboldItalic-Web.woff2') format('woff2'),
+       url('AustinNewsText-SemiboldItalic-Web.woff') format('woff');
+  font-weight:  600;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.AustinNewsText-SemiboldItalic-Web {
+  font-family: 'Austin News Text Web';
+  font-weight:  600;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Text Web';
+  src: url('AustinNewsText-Semibold-Web.eot');
+  src: url('AustinNewsText-Semibold-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsText-Semibold-Web.woff2') format('woff2'),
+       url('AustinNewsText-Semibold-Web.woff') format('woff');
+  font-weight:  600;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AustinNewsText-Semibold-Web {
+  font-family: 'Austin News Text Web';
+  font-weight:  600;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Text Web';
+  src: url('AustinNewsText-ItalicNo2-Web.eot');
+  src: url('AustinNewsText-ItalicNo2-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsText-ItalicNo2-Web.woff2') format('woff2'),
+       url('AustinNewsText-ItalicNo2-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.AustinNewsText-ItalicNo2-Web {
+  font-family: 'Austin News Text Web';
+  font-weight:  500;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Text Web';
+  src: url('AustinNewsText-RomanNo2-Web.eot');
+  src: url('AustinNewsText-RomanNo2-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsText-RomanNo2-Web.woff2') format('woff2'),
+       url('AustinNewsText-RomanNo2-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AustinNewsText-RomanNo2-Web {
+  font-family: 'Austin News Text Web';
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Text Web';
+  src: url('AustinNewsText-Italic-Web.eot');
+  src: url('AustinNewsText-Italic-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsText-Italic-Web.woff2') format('woff2'),
+       url('AustinNewsText-Italic-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.AustinNewsText-Italic-Web {
+  font-family: 'Austin News Text Web';
+  font-weight:  400;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Austin News Text Web';
+  src: url('AustinNewsText-Roman-Web.eot');
+  src: url('AustinNewsText-Roman-Web.eot?#iefix') format('embedded-opentype'),
+       url('AustinNewsText-Roman-Web.woff2') format('woff2'),
+       url('AustinNewsText-Roman-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AustinNewsText-Roman-Web {
+  font-family: 'Austin News Text Web';
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+

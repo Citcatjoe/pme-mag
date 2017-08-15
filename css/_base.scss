@@ -7,6 +7,9 @@ $gray-line: #DCDCDC;
 $gray-bg: #f2f2f2;
 $pme-color: #912E3F;
 $gray-text: #6e6e6e;
+$odd-rubrique-bg: #f6f6f6;
+
+$article-signature-color: #B1B1B1;
 
 //=====================================================================//
 // FONTS
@@ -73,9 +76,34 @@ html { margin:0; padding: 0; }
 body { margin: 0; padding: 0; height: 100%; }
 img { display:block; width: 100%; }
 
+//Titre dans le jumbotron
 h1
 {
-    margin: 0;
+    margin: 17px 0 20px 0;
+    color: #fff !important;
+    max-width: 500px;
+
+    font-family: 'Austin News Text Roman';
+    font-weight: 500 !important;
+    font-size: 60px !important;
+    letter-spacing: 0;
+    line-height: 53px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.30);
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+
+    @include breakpoint(md) {
+      font-size: 50px !important;
+      line-height: 45px;
+      margin: 17px 0 15px 0;
+    }
+
+    @include breakpoint(sm) {
+      font-size: 30px !important;
+      line-height: 30px;
+      margin: 10px 0 0 0;
+      max-width: 250px;
+    }
 }
 
 h2
@@ -85,12 +113,22 @@ h2
 
 h3
 {
-    
+    text-align: center;
+    font-family: 'Duplicate Slab';
+    font-size: 26px;
+    font-weight: 300;
+    color: $gray-text;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+    margin: 15px 0 65px 0;;
 }
 
 h4
 {
-    
+    font-family: 'Austin News Text Roman';
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h5
@@ -106,6 +144,53 @@ h6
 p 
 {
    
+}
+
+//Chapeau du jumbotron
+p.lead
+{
+  font-family: 'Duplicate Slab';
+  font-size: 21px;
+  font-style: italic;
+  color: #FFFFFF;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.30);
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;
+
+  @include breakpoint(md) {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  @include breakpoint(sm) {
+        font-size: 16px;
+        display: none;
+
+      }
+
+  &.lead-xs
+    {
+      display: none;
+      text-shadow: none;
+      color: $gray-text;
+      margin-top: 10px;
+      text-align: center;
+
+      @include breakpoint(sm) {
+        display: block;
+
+
+      }
+
+      &.is-centered
+      {
+        text-align: center;
+      }
+    }
+
+  
 }
 
 a 

@@ -38,3 +38,25 @@ div.container
 		background: lighten($pme-color, 8%) !important;
 	}
 }
+
+.badge
+{
+	background: $pme-color;
+	border-radius: 0;
+	font-family: 'Duplicate Slab';
+	font-weight: 300;
+	font-size: 12px;
+	letter-spacing: 1px;
+	padding: 4px 6px;
+
+	@include breakpoint(sm) {
+      font-weight: 500;
+    }
+}
+
+div.spacer
+{
+	width: 100%;
+	height: 30px;
+	overflow: auto;
+}
