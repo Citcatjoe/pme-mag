@@ -1,131 +1,203 @@
-article
+
+section.rubrique
 {
+	padding: 45px 0 15px 0;
+
+	&:nth-child(even)
+	{
+		background: $odd-rubrique-bg
+	}
+}
+
+article 
+{
+	border: 1px solid #efefef;
+	margin-bottom: 30px;
 	transition: all 0.2s;
+	overflow: auto;
 
 	&:hover
 	{
 		box-shadow: 0 5px 15px 0 rgba(0,0,0,0.08);
 		transform: translateY(-3px);
 		transition: all 0.2s;
+
+		@include breakpoint(md) { 
+			box-shadow: none;
+			transform: translateY(0px);
+			transition: all 0.2s;
+		}
+	}
+
+	@include breakpoint(md) {
+		margin-bottom: 20px;
 	}
 	
-}
-
-section.rubrique
-{
-	padding: 45px 0 45px 0;
-
-	&:nth-child(even)
+	div.article-excerpt
 	{
-		background: $odd-rubrique-bg
-	}
-	//background: red;
-	div.rubrique-content
-	{
-		width: 100%;
+		padding: 15px 20px 19px 20px;
+		position: relative;
+		background: #fff;
 
-		div.rubrique-content-lg
-		{
+		@include breakpoint(sm) {
 			width: 100%;
+			float: none;
+			padding: 15px 20px 35px 20px;
 		}
 	}
 }
 
-//Style général des articles
-article
+article.article-lg
 {
 	width: 100%;
 	display: flex;
-	border: 1px solid #EFEFEF;
-	//box-shadow: 0 0 15px 0 rgba(0,0,0,0.08);
 
-	div.article-figure
-	{
-		width: 50%;
-		float: left;
-
-		figure {}
-		figcaption { display: none; }
-	}
-
-	div.article-excerpt
-	{
-		width: 50%;
-		float: left;
-		background: #fff;
-		padding: 20px 25px 15px 25px;
-		position: relative;
-
-		span.article-kicker
-		{
-			color: $pme-color;
-			font-family: 'Duplicate Slab';
-			font-weight: 500;
-			text-transform: uppercase;
-			-webkit-font-smoothing: antialiased; 
-    		-moz-osx-font-smoothing: grayscale;
-
-    		&:before
-    		{
-    			content: url('../img/tag-icon.svg');
-    			margin-right: 7px;
-    		}
-		}
-
-		h4.article-title
-		{
-			font-size: 34px;
-			line-height: 43px;
-		}
-
-		span.article-signature
-		{
-			position: absolute;
-			bottom: 20px;
-			font-family: 'Duplicate Slab';
-			font-weight: 300;
-			color: $article-signature-color;
-			-webkit-font-smoothing: antialiased; 
-    		-moz-osx-font-smoothing: grayscale;
-    		
-		}
+	@include breakpoint(sm) {
+		display: block;
 	}
 }
 
-//Petites modifications pour les articles SM
-section.rubrique 
+article.article-lg div.article-figure
 {
-	div.rubrique-content-sm
+	width: 50%;
+	float: left;
+
+	@include breakpoint(sm) {
+		width: 100%;
+		float: none;
+	}
+
+	figcaption { display: none; }
+}
+
+article.article-sm
+{
+	display: block;
+
+	@include breakpoint(md) { 
+		display: flex;
+		border: 0;
+	}
+
+	@include breakpoint(sm) { 
+		display: block;
+	}
+}
+
+article.article-sm div.article-figure
+{
+	width: 100%;
+	float: none;
+
+	@include breakpoint(md) { 
+		width: 25%;
+		float: left;
+		margin-right: 15px;
+	}
+
+	@include breakpoint(sm) { 
+		width: 75px;
+	}
+
+	figure 
 	{
-		article
+		@include breakpoint(sm) { 
+			height: 100%;
+		}
+
+		img 
 		{
-			display: block;
-			
-			div.article-figure
-			{
-				width: 100%;
-				float: none;
+			@include breakpoint(md) { 
+					
+				border: 1px solid #efefef;
 			}
 
-			div.article-excerpt
-			{
-				width: 100%;
-				float: none;
-				height: 165px;
-				padding: 15px 20px 19px 20px;
-
-				h4.article-title
-				{
-					font-size: 19px;
-					line-height: 25px;
-					margin-top: 7px;
-				}
-
-				span.article-signature
-				{
-					bottom: 15px;
-				}
+			@include breakpoint(sm) { 
+				object-fit: cover;
+				height: 70px;
 			}
 		}
 	}
+
+	figcaption { display: none; }
+}
+
+article.article-lg div.article-excerpt //ATTENTION
+{
+	width: 50%;
+	float: left;
+	
+	position: relative;
+
+
+
+	@include breakpoint(sm) {
+		width: 100%;
+		float: none;
+	}
+}
+
+article.article-lg div.article-excerpt h4.article-title
+{
+	font-size: 34px;
+	line-height: 43px;
+
+	@include breakpoint(md) {
+		font-size: 24px;
+		line-height: 30px;
+	}
+}
+
+article.article-sm div.article-excerpt
+{
+	width: 100%;
+	float: none;
+	height: 165px;
+
+	@include breakpoint(md) {
+		//width: calc(100% - 100px);
+		width: 75%;
+		float: left;
+		height: 135px;
+		border: 1px solid #efefef;
+	}
+
+	@include breakpoint(sm) {
+		height: auto;
+		width: calc(100% - 90px);
+	}
+}
+
+article.article-sm div.article-excerpt h4.article-title
+{
+	font-size: 19px;
+	line-height: 25px;
+	margin-top: 7px;
+}
+
+article span.article-kicker
+{
+	color: $pme-color;
+	font-family: 'Duplicate Slab';
+	font-weight: 500;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased; 
+	-moz-osx-font-smoothing: grayscale;
+
+	&:before
+	{
+		content: url('../img/tag-icon.svg');
+		margin-right: 7px;
+	}
+}
+
+article span.article-signature
+{
+	position: absolute;
+	bottom: 15px;
+	font-family: 'Duplicate Slab';
+	font-weight: 300;
+	color: $article-signature-color;
+	-webkit-font-smoothing: antialiased; 
+	-moz-osx-font-smoothing: grayscale;
 }

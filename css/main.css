@@ -308,75 +308,145 @@ section.dossier div.dossier-image {
           margin-left: -100px;
           margin-right: -100px; }
 
+section.rubrique {
+  padding: 45px 0 15px 0; }
+  section.rubrique:nth-child(even) {
+    background: #f6f6f6; }
+
 article {
-  transition: all 0.2s; }
+  border: 1px solid #efefef;
+  margin-bottom: 30px;
+  transition: all 0.2s;
+  overflow: auto; }
   article:hover {
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.08);
     transform: translateY(-3px);
     transition: all 0.2s; }
-
-section.rubrique {
-  padding: 45px 0 45px 0; }
-  section.rubrique:nth-child(even) {
-    background: #f6f6f6; }
-  section.rubrique div.rubrique-content {
-    width: 100%; }
-    section.rubrique div.rubrique-content div.rubrique-content-lg {
-      width: 100%; }
-
-article {
-  width: 100%;
-  display: flex;
-  border: 1px solid #EFEFEF; }
-  article div.article-figure {
-    width: 50%;
-    float: left; }
-    article div.article-figure figcaption {
-      display: none; }
+    @media (max-width: 991px) {
+      article:hover {
+        box-shadow: none;
+        transform: translateY(0px);
+        transition: all 0.2s; } }
+  @media (max-width: 991px) {
+    article {
+      margin-bottom: 20px; } }
   article div.article-excerpt {
-    width: 50%;
-    float: left;
-    background: #fff;
-    padding: 20px 25px 15px 25px;
-    position: relative; }
-    article div.article-excerpt span.article-kicker {
-      color: #912E3F;
-      font-family: 'Duplicate Slab';
-      font-weight: 500;
-      text-transform: uppercase;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale; }
-      article div.article-excerpt span.article-kicker:before {
-        content: url("../img/tag-icon.svg");
-        margin-right: 7px; }
-    article div.article-excerpt h4.article-title {
-      font-size: 34px;
-      line-height: 43px; }
-    article div.article-excerpt span.article-signature {
-      position: absolute;
-      bottom: 20px;
-      font-family: 'Duplicate Slab';
-      font-weight: 300;
-      color: #B1B1B1;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale; }
+    padding: 15px 20px 19px 20px;
+    position: relative;
+    background: #fff; }
+    @media (max-width: 767px) {
+      article div.article-excerpt {
+        width: 100%;
+        float: none;
+        padding: 15px 20px 35px 20px; } }
 
-section.rubrique div.rubrique-content-sm article {
+article.article-lg {
+  width: 100%;
+  display: flex; }
+  @media (max-width: 767px) {
+    article.article-lg {
+      display: block; } }
+
+article.article-lg div.article-figure {
+  width: 50%;
+  float: left; }
+  @media (max-width: 767px) {
+    article.article-lg div.article-figure {
+      width: 100%;
+      float: none; } }
+  article.article-lg div.article-figure figcaption {
+    display: none; }
+
+article.article-sm {
   display: block; }
-  section.rubrique div.rubrique-content-sm article div.article-figure {
-    width: 100%;
-    float: none; }
-  section.rubrique div.rubrique-content-sm article div.article-excerpt {
-    width: 100%;
-    float: none;
-    height: 165px;
-    padding: 15px 20px 19px 20px; }
-    section.rubrique div.rubrique-content-sm article div.article-excerpt h4.article-title {
-      font-size: 19px;
-      line-height: 25px;
-      margin-top: 7px; }
-    section.rubrique div.rubrique-content-sm article div.article-excerpt span.article-signature {
-      bottom: 15px; }
+  @media (max-width: 991px) {
+    article.article-sm {
+      display: flex;
+      border: 0; } }
+  @media (max-width: 767px) {
+    article.article-sm {
+      display: block; } }
+
+article.article-sm div.article-figure {
+  width: 100%;
+  float: none; }
+  @media (max-width: 991px) {
+    article.article-sm div.article-figure {
+      width: 25%;
+      float: left;
+      margin-right: 15px; } }
+  @media (max-width: 767px) {
+    article.article-sm div.article-figure {
+      width: 75px; } }
+  @media (max-width: 767px) {
+    article.article-sm div.article-figure figure {
+      height: 100%; } }
+  @media (max-width: 991px) {
+    article.article-sm div.article-figure figure img {
+      border: 1px solid #efefef; } }
+  @media (max-width: 767px) {
+    article.article-sm div.article-figure figure img {
+      object-fit: cover;
+      height: 70px; } }
+  article.article-sm div.article-figure figcaption {
+    display: none; }
+
+article.article-lg div.article-excerpt {
+  width: 50%;
+  float: left;
+  position: relative; }
+  @media (max-width: 767px) {
+    article.article-lg div.article-excerpt {
+      width: 100%;
+      float: none; } }
+
+article.article-lg div.article-excerpt h4.article-title {
+  font-size: 34px;
+  line-height: 43px; }
+  @media (max-width: 991px) {
+    article.article-lg div.article-excerpt h4.article-title {
+      font-size: 24px;
+      line-height: 30px; } }
+
+article.article-sm div.article-excerpt {
+  width: 100%;
+  float: none;
+  height: 165px; }
+  @media (max-width: 991px) {
+    article.article-sm div.article-excerpt {
+      width: 75%;
+      float: left;
+      height: 135px;
+      border: 1px solid #efefef; } }
+  @media (max-width: 767px) {
+    article.article-sm div.article-excerpt {
+      height: auto;
+      width: calc(100% - 90px); } }
+
+article.article-sm div.article-excerpt h4.article-title {
+  font-size: 19px;
+  line-height: 25px;
+  margin-top: 7px; }
+
+article span.article-kicker {
+  color: #912E3F;
+  font-family: 'Duplicate Slab';
+  font-weight: 500;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  article span.article-kicker:before {
+    content: url("../img/tag-icon.svg");
+    margin-right: 7px; }
+
+article span.article-signature {
+  position: absolute;
+  bottom: 15px;
+  font-family: 'Duplicate Slab';
+  font-weight: 300;
+  color: #B1B1B1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 footer {
   background: #f2f2f2; }
@@ -419,3 +489,5 @@ footer {
           overflow: auto;
           padding: 0;
           font-size: 18px; } }
+
+/*# sourceMappingURL=main.css.map */
