@@ -311,7 +311,7 @@ section.dossier div.dossier-image {
 article {
   transition: all 0.2s; }
   article:hover {
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.08);
     transform: translateY(-3px);
     transition: all 0.2s; }
 
