@@ -1,0 +1,75 @@
+//=====================================================================//
+// BOOTSTRAP v4.0.0-alpha.6 (https://getbootstrap.com)
+//=====================================================================//
+
+// Core variables and mixins
+@import "../lib/bootstrap/variables";
+@import "../lib/bootstrap/mixins";
+@import "../lib/bootstrap/custom";
+
+// Reset and dependencies
+@import "../lib/bootstrap/normalize";   
+@import "../lib/bootstrap/print"; 
+
+// Core CSS
+@import "../lib/bootstrap/reboot";
+@import "../lib/bootstrap/type";
+@import "../lib/bootstrap/images";
+@import "../lib/bootstrap/code";
+@import "../lib/bootstrap/grid";
+@import "../lib/bootstrap/tables";
+@import "../lib/bootstrap/forms";
+@import "../lib/bootstrap/buttons"; 
+
+// Components
+@import "../lib/bootstrap/transitions";
+@import "../lib/bootstrap/dropdown";
+@import "../lib/bootstrap/button-group";
+@import "../lib/bootstrap/input-group";
+@import "../lib/bootstrap/custom-forms";
+@import "../lib/bootstrap/nav";
+@import "../lib/bootstrap/navbar";
+@import "../lib/bootstrap/card";
+@import "../lib/bootstrap/breadcrumb";
+@import "../lib/bootstrap/pagination";
+@import "../lib/bootstrap/badge";
+@import "../lib/bootstrap/jumbotron";
+@import "../lib/bootstrap/alert";
+@import "../lib/bootstrap/progress";
+@import "../lib/bootstrap/media";
+@import "../lib/bootstrap/list-group";
+@import "../lib/bootstrap/responsive-embed"; 
+@import "../lib/bootstrap/close";
+
+// Components w/ JavaScript
+@import "../lib/bootstrap/modal";
+@import "../lib/bootstrap/tooltip"; 
+@import "../lib/bootstrap/popover";
+@import "../lib/bootstrap/carousel";
+
+// Utility classes
+@import "../lib/bootstrap/utilities";
+@charset "UTF-8";  
+
+//=====================================================================//
+// MY THINGS
+//=====================================================================//
+// @import "bourbon"; /*Bourbon mixins*/         
+//@import "barbarian_reset"; /*Boxes settings*/       
+@import "base"; /*Colors, fonts, z-index, breakpoints...*/
+// @import "fontface";
+@import "elements"; /*Header, section, article, footer...*/
+
+@import "header";
+@import "dossier";
+@import "actualites";
+@import "rubriques";
+@import "footer";
+
+@import "shame";
+
+
+
+
+
+

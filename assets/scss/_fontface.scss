@@ -1,0 +1,60 @@
+
+// @font-face {
+// 	font-family: 'Duplicate Slab';
+// 	src: url('DuplicateSlab-Black.eot');
+// 	src: url('DuplicateSlab-Black.eot?#iefix') format('embedded-opentype'),
+// 		url('DuplicateSlab-Black.woff') format('woff'),
+// 		url('DuplicateSlab-Black.ttf') format('truetype');
+// 	font-weight: 900;
+// 	font-style: normal;
+// }
+
+@font-face {
+	font-family: 'Duplicate Slab';
+	src: url('../fonts/DuplicateSlab-Light.eot');
+	src: url('../fonts/DuplicateSlab-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DuplicateSlab-Light.woff') format('woff'),
+		url('../fonts/DuplicateSlab-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Duplicate Slab';
+	src: url('../fonts/DuplicateSlab-RegularItalic.eot');
+	src: url('../fonts/DuplicateSlab-RegularItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DuplicateSlab-RegularItalic.woff') format('woff'),
+		url('../fonts/DuplicateSlab-RegularItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Duplicate Slab';
+	src: url('../fonts/DuplicateSlab-Medium.eot');
+	src: url('../fonts/DuplicateSlab-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DuplicateSlab-Medium.woff') format('woff'),
+		url('../fonts/DuplicateSlab-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Austin News Text Roman';
+	src: url('../fonts/AustinNewsText-Roman.eot');
+	src: url('../fonts/AustinNewsText-Roman.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AustinNewsText-Roman.woff') format('woff'),
+		url('../fonts/AustinNewsText-Roman.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+// @font-face {
+// 	font-family: 'Duplicate Slab';
+// 	src: url('DuplicateSlab-Thin.eot');
+// 	src: url('DuplicateSlab-Thin.eot?#iefix') format('embedded-opentype'),
+// 		url('DuplicateSlab-Thin.woff') format('woff'),
+// 		url('DuplicateSlab-Thin.ttf') format('truetype');
+// 	font-weight: 100;
+// 	font-style: normal;
+// }

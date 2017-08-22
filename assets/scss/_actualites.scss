@@ -1,0 +1,25 @@
+section.rubrique-actualites
+{
+	
+}
+
+section.rubrique-actualites div.masonry
+{
+	// -moz-column-width: 13em;
+	// -webkit-column-width: 13em;
+	// -moz-column-gap: 1em;
+	// -webkit-column-gap: 1em; 
+}
+
+section.rubrique-actualites div.masonry article
+{
+	border: 1px solid red;
+	padding: 10px;
+	width: 25%;
+	float: left;
+
+	// display: inline-block;
+	// margin:  0.25rem;
+	// width:  100%; 
+	// background:  #efefef;
+}

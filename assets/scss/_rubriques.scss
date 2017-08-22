@@ -1,0 +1,272 @@
+
+section.rubrique
+{
+	padding: 45px 0 15px 0;
+
+	&:nth-child(even)
+	{
+		background: $odd-rubrique-bg
+	}
+
+	.btn 
+	{
+		margin-top: 10px;
+		margin-bottom: 30px;
+	}
+}
+
+section.rubrique:not(.rubrique-actualites) article 
+{
+	border: 1px solid #efefef;
+	margin-bottom: 30px;
+	transition: all 0.2s;
+	overflow: auto;
+
+	&:hover
+	{
+		box-shadow: 0 5px 15px 0 rgba(0,0,0,0.08);
+		transform: translateY(-3px);
+		transition: all 0.2s;
+
+		@include breakpoint(md) { 
+			box-shadow: none;
+			transform: translateY(0px);
+			transition: all 0.2s;
+		}
+	}
+
+	@include breakpoint(md) {
+		margin-bottom: 20px;
+	}
+	
+	div.article-excerpt
+	{
+		padding: 12px 20px 19px 20px;
+		position: relative;
+		background: #fff;
+
+		@include breakpoint(sm) {
+			width: 100%;
+			float: none;
+			padding: 15px 20px 35px 20px;
+		}
+	}
+}
+
+section.rubrique:not(.rubrique-actualites) article.article-lg
+{
+	width: 100%;
+	display: flex;
+
+	@include breakpoint(sm) {
+		display: block;
+	}
+}
+
+section.rubrique:not(.rubrique-actualites) article.article-lg div.article-figure
+{
+	width: 50%;
+	float: left;
+
+	@include breakpoint(sm) {
+		width: 100%;
+		float: none;
+	}
+	figure { margin: 0; }
+	figcaption { display: none; }
+}
+
+section.rubrique:not(.rubrique-actualites) article.article-sm
+{
+	display: block;
+
+	@include breakpoint(md) { 
+		display: flex;
+		border: 0;
+	}
+
+	@include breakpoint(sm) { 
+		display: block;
+	}
+}
+
+section.rubrique:not(.rubrique-actualites) article.article-sm div.article-figure
+{
+	width: 100%;
+	float: none;
+
+	@include breakpoint(md) { 
+		width: 25%;
+		float: left;
+		margin-right: 15px;
+	}
+
+	@include breakpoint(sm) { 
+		width: 75px;
+	}
+
+	figure 
+	{
+		margin: 0;
+
+		@include breakpoint(sm) { 
+			height: 100%;
+		}
+
+		img 
+		{
+			@include breakpoint(md) { 
+					
+				border: 1px solid #efefef;
+			}
+
+			@include breakpoint(sm) { 
+				object-fit: cover;
+				height: 70px;
+			}
+		}
+	}
+
+	figcaption { display: none; }
+}
+
+section.rubrique:not(.rubrique-actualites) article.article-lg div.article-excerpt
+{
+	width: 50%;
+	float: left;
+	
+	position: relative;
+
+
+
+	@include breakpoint(sm) {
+		width: 100%;
+		float: none;
+	}
+}
+
+section.rubrique:not(.rubrique-actualites) article.article-lg div.article-excerpt h4.article-title
+{
+	font-size: 34px;
+	line-height: 43px;
+
+	@include breakpoint(md) {
+		font-size: 24px;
+		line-height: 30px;
+	}
+}
+
+section.rubrique:not(.rubrique-actualites) article.article-sm div.article-excerpt
+{
+	width: 100%;
+	float: none;
+	height: 165px;
+
+	@include breakpoint(md) {
+		width: 75%;
+		float: left;
+		height: 135px;
+		border: 1px solid #efefef;
+	}
+
+	@include breakpoint(sm) {
+		height: auto;
+		width: calc(100% - 90px);
+	}
+}
+
+section.rubrique:not(.rubrique-actualites) article.article-sm div.article-excerpt h4.article-title
+{
+	font-size: 19px;
+	line-height: 25px;
+	margin-top: 7px;
+}
+
+section.rubrique:not(.rubrique-actualites) article span.article-kicker
+{
+	color: $pme-color;
+	font-family: 'Duplicate Slab';
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased; 
+	-moz-osx-font-smoothing: grayscale;
+
+	&:before
+	{
+		content: url('../img/tag-icon.svg');
+		margin-right: 7px;
+	}
+}
+
+section.rubrique:not(.rubrique-actualites) article span.article-signature
+{
+	position: absolute;
+	font-size: 14px;
+	line-height: 20px;
+	bottom: 15px;
+	font-family: 'Duplicate Slab';
+	font-weight: 300;
+	color: $article-signature-color;
+	-webkit-font-smoothing: antialiased; 
+	-moz-osx-font-smoothing: grayscale;
+}
+
+section.rubrique-media // FAUDRAIT CHECKER UN COUP
+{
+	background: $bg-mine-shaft !important;
+	padding: 0;
+
+	h3
+	{
+		color: $lead-color-ondark;
+	}
+
+	div.rubrique-media-content
+	{
+		// @include breakpoint(md) {
+		// 	margin-bottom: 20px;
+		// }
+
+		div.col-lg-8
+		{
+			@include breakpoint(sm) {
+				padding: 0;
+			}
+		}
+
+		div.col-lg-4
+		{
+			h4 
+			{
+				margin-top: 40px; 
+				font-size: 34px;
+				line-height: 43px;
+				color: $title-color-ondark;
+
+				@include breakpoint(lg) {
+					font-size: 24px;
+					line-height: 30px;
+				}
+
+				@include breakpoint(md) {
+					margin-top: 20px;
+				}
+			}
+
+			p.media-lead
+			{
+				text-shadow: none;
+				color: $lead-color-ondark;
+				// font-style: normal;
+				display: block;
+
+				@include breakpoint(lg) {
+					font-size: 18px;
+	    			line-height: 22px;
+				}
+			}
+		}
+	}
+}

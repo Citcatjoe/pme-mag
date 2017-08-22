@@ -30,6 +30,10 @@ $host = $_SERVER['HTTP_HOST'];
 $uri = $_SERVER['REQUEST_URI'];
 
 $app->url = 'http://' . $host . $uri;
+
+if(isset($_COOKIE['pmefonts']) && (bool) $_COOKIE['pmefonts'] === TRUE) {
+	$app->fontsLoaded = TRUE;
+}
 $variables = array_merge($variables, array('app' => $app));
 
 

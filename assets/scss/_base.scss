@@ -1,0 +1,222 @@
+@charset "UTF-8"; 
+
+//=====================================================================//
+// COLORS
+//=====================================================================//
+$gray-line: #DCDCDC;
+$gray-bg: #f2f2f2;
+$pme-color: #912E3F;
+$gray-text: #6e6e6e;
+$odd-rubrique-bg: #f6f6f6;
+$bg-mine-shaft: #323232;
+
+$article-signature-color: #B1B1B1;
+
+$title-color: #333333;
+$title-color-ondark: #cacaca;
+
+$lead-color-ondark: #989898;
+
+//=====================================================================//
+// FONTS
+//=====================================================================//
+
+// headings
+//@include font-face("ratio_light", "../fonts/ratio_light", $file-formats: eot woff ttf svg); 
+//@include font-face("ratio_reg", "../fonts/ratio_reg", $file-formats: eot woff ttf svg); 
+  //@include font-face("ratio_medium", "../fonts/ratio_medium", $file-formats: eot woff ttf svg); 
+  //@include font-face("ratio_bold", "../fonts/ratio_bold", $file-formats: eot woff ttf svg); 
+
+// paragraphs
+  //@include font-face("rooney_light", "../fonts/rooney_light", $file-formats: eot woff ttf svg); 
+//@include font-face("rooney_medium", "../fonts/rooney_medium", $file-formats: eot woff ttf svg); 
+  //@include font-face("rooney_bold", "../fonts/rooney_bold", $file-formats: eot woff ttf svg); 
+
+//=====================================================================//
+// TRANSITIONS
+//=====================================================================//
+$transition-speed:0.3s;
+$bezier:cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+//=====================================================================//
+// DISTANCES
+//=====================================================================//
+$columnW: 700px;
+
+//=====================================================================//
+// Z-INDEX
+//=====================================================================//
+$zHeader: 100;
+$zOverlay: 200;
+$zModal: 300;
+
+
+//=====================================================================//
+// MORE MIXINS
+//=====================================================================//
+@mixin breakpoint($class) {
+  @if $class == xs {
+    @media (max-width: 500px) { @content; }
+  }
+ 
+  @else if $class == sm {
+    @media (max-width: 767px) { @content; } 
+  }
+ 
+  @else if $class == md {
+    @media (max-width: 991px) { @content; }
+  }
+ 
+  @else if $class == lg {
+    @media (max-width: 1213px) { @content; }
+  }
+ 
+  @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg";
+  }
+}
+
+
+
+html { margin:0; padding: 0; }
+body { margin: 0; padding: 0; height: 100%; }
+img { display:block; width: 100%; }
+
+//Titre dans le jumbotron
+h1
+{
+    margin: 17px 0 20px 0;
+    color: #fff !important;
+    max-width: 500px;
+
+    font-family: 'Austin News Text Roman';
+    font-weight: 500 !important;
+    font-size: 60px !important;
+    letter-spacing: 0;
+    line-height: 53px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.30);
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+
+    @include breakpoint(md) {
+      font-size: 50px !important;
+      line-height: 45px;
+      margin: 17px 0 15px 0;
+    }
+
+    @include breakpoint(sm) {
+      font-size: 30px !important;
+      line-height: 30px;
+      margin: 10px 0 0 0;
+      max-width: 250px;
+    }
+}
+
+h2
+{
+    
+}
+
+h3
+{
+    text-align: center;
+    font-family: 'Duplicate Slab';
+    font-size: 26px;
+    font-weight: 300;
+    color: $gray-text;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+    margin: 15px 0 65px 0;;
+}
+
+h4
+{
+    font-family: 'Austin News Text Roman';
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+} 
+
+h5
+{
+   
+}
+
+h6 
+{
+    
+}
+
+p 
+{
+   
+}
+
+//Chapeau du jumbotron
+p.lead
+{
+  font-family: 'Duplicate Slab';
+  font-size: 21px;
+  font-style: italic;
+  color: #FFFFFF;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.30);
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;
+
+  @include breakpoint(md) {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  @include breakpoint(sm) {
+        font-size: 16px;
+        display: none;
+
+      }
+
+  &.lead-xs
+    {
+      display: none;
+      text-shadow: none;
+      color: $gray-text;
+      margin-top: 10px;
+      text-align: center;
+
+      @include breakpoint(sm) {
+        display: block;
+
+
+      }
+
+      &.is-centered
+      {
+        text-align: center;
+      }
+    }
+
+  
+}
+
+a 
+{
+    color: inherit;
+
+    &:hover
+    {
+      color: inherit;
+      text-decoration: none;
+    }
+}
+
+
+
+hr 
+{
+    
+}
+
+

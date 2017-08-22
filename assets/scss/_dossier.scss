@@ -1,0 +1,76 @@
+section.dossier
+{
+	div.jumbotron
+	{
+		position: relative;
+		max-width: 1280px;
+		//height: 500px;
+		margin: auto;
+		//background: url('../img/dossier.png');
+		background-position: center center;
+		background-size: cover;
+
+		// @include breakpoint(md) {
+		// 	height: 400px;
+		// }
+
+		// @include breakpoint(sm) {
+		// 	height: 200px;
+		// }
+		
+		div.container
+		{
+			//position: relative;
+			//height: 100%;
+			position: absolute;
+			top: 0;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+
+			div.dossier-text
+			{
+				//position: absolute;
+				max-width: 640px;
+				// top: 50%;
+				// transform: (translateY(-45%));
+				// left: 0;
+				// padding: 0 15px;
+
+				@include breakpoint(sm) {
+					top: auto;
+					bottom: -15px;
+					transform: (translateY(0));
+				}
+
+				&.is-centered
+				{
+					//max-width: 100%;
+					text-align: center;
+					top: auto;
+					bottom: -15px;
+					left: 50%;
+					transform: translateX(-50%);
+
+					@include breakpoint(sm) {
+						max-width: 100%;
+						width: 100%;
+					}
+
+					h1
+					{
+						max-width: 100%;
+					}
+
+					p.lead
+					{
+						margin-left: -100px;
+						margin-right: -100px;
+					}
+				}
+			}
+		}
+	}
+
+		
+}
