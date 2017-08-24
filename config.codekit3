@@ -9,6 +9,174 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/assets\/fonts\/AustinNewsText-Roman.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/AustinNewsText-Roman.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/AustinNewsText-Roman.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/AustinNewsText-Roman.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/AustinNewsText-Roman.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/AustinNewsText-Roman.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/DuplicateSlab-Black.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/DuplicateSlab-Black.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/DuplicateSlab-Black.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/DuplicateSlab-Black.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/DuplicateSlab-Black.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/DuplicateSlab-Black.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/DuplicateSlab-Light.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/DuplicateSlab-Light.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/DuplicateSlab-Light.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/DuplicateSlab-Light.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/DuplicateSlab-Light.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/DuplicateSlab-Light.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/DuplicateSlab-Medium.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/DuplicateSlab-Medium.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/DuplicateSlab-Medium.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/DuplicateSlab-Medium.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/DuplicateSlab-Medium.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/DuplicateSlab-Medium.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/DuplicateSlab-RegularItalic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/DuplicateSlab-RegularItalic.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/DuplicateSlab-RegularItalic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/DuplicateSlab-RegularItalic.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/DuplicateSlab-RegularItalic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/DuplicateSlab-RegularItalic.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/DuplicateSlab-Thin.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/DuplicateSlab-Thin.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/DuplicateSlab-Thin.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/DuplicateSlab-Thin.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/DuplicateSlab-Thin.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/DuplicateSlab-Thin.woff",
+		"oF": 0
+		},
+	"\/assets\/js\/actualites-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/actualites-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/actualites.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/actualites-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/header-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/header-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/header.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/header-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/lazyload.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/lazyload-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/lib\/bootstrap\/_alert.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1075,6 +1243,2208 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/lib\/bourbon\/.github\/ISSUE_TEMPLATE.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/.github\/ISSUE_TEMPLATE.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/assets\/lib\/bourbon\/.github\/PULL_REQUEST_TEMPLATE.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/.github\/PULL_REQUEST_TEMPLATE.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/assets\/lib\/bourbon\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/.gitignore",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/.hound.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/.hound.yml",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/.npmignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/.npmignore",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/.ruby-version": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/.ruby-version",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/.scss-lint.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/.scss-lint.yml",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/bin\/bourbon": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/bin\/bourbon",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/bourbon.gemspec": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/bourbon.gemspec",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/lib\/bourbon\/CHANGELOG.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/CHANGELOG.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/assets\/lib\/bourbon\/circle.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/circle.yml",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/CODE_OF_CONDUCT.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/CODE_OF_CONDUCT.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/assets\/lib\/bourbon\/CONTRIBUTING.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/CONTRIBUTING.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/assets\/lib\/bourbon\/core\/_bourbon.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/css\/_bourbon.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/helpers\/_buttons-list.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_buttons-list.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/helpers\/_scales.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_scales.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/helpers\/_text-inputs-list.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_text-inputs-list.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_border-color.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_border-color.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_border-radius.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_border-radius.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_border-style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_border-style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_border-width.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_border-width.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_clearfix.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_clearfix.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_contrast-switch.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_contrast-switch.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_ellipsis.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_ellipsis.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_font-face.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_font-face.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_font-stacks.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_font-stacks.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_hide-text.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_hide-text.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_hide-visually.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_hide-visually.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_margin.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_margin.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_modular-scale.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_modular-scale.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_overflow-wrap.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_overflow-wrap.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_padding.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_padding.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_position.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_position.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_prefixer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_prefixer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_shade.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_shade.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_size.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_size.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_strip-unit.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_strip-unit.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_text-inputs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_text-inputs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_timing-functions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_timing-functions.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_tint.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_tint.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_triangle.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_triangle.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/library\/_value-prefixer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_value-prefixer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/settings\/_settings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_settings.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/utilities\/_assign-inputs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_assign-inputs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/utilities\/_compact-shorthand.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_compact-shorthand.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/utilities\/_contrast-ratio.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_contrast-ratio.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/utilities\/_directional-property.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_directional-property.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/utilities\/_fetch-bourbon-setting.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_fetch-bourbon-setting.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/utilities\/_font-source-declaration.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_font-source-declaration.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/utilities\/_gamma.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_gamma.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/utilities\/_lightness.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_lightness.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/utilities\/_unpack-shorthand.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_unpack-shorthand.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/validators\/_contains-falsy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_contains-falsy.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/validators\/_contains.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_contains.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/validators\/_is-color.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_is-color.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/validators\/_is-length.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_is-length.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/validators\/_is-number.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_is-number.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/core\/bourbon\/validators\/_is-size.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/core\/css\/_is-size.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/eyeglass-exports.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/eyeglass-exports-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/bourbon\/features\/install.feature": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/features\/install.feature",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/features\/step_definitions\/bourbon_steps.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/features\/step_definitions\/bourbon_steps.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/features\/support\/bourbon_support.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/features\/support\/bourbon_support.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/features\/support\/env.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/features\/support\/env.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/features\/update.feature": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/features\/update.feature",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/features\/version.feature": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/features\/version.feature",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/Gemfile": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/Gemfile",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/bourbon\/lib\/bourbon.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/lib\/bourbon.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/lib\/bourbon\/generator.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/lib\/bourbon\/generator.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/lib\/bourbon\/version.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/lib\/bourbon\/version.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/LICENSE.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/LICENSE.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/assets\/lib\/bourbon\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/lib\/bourbon\/Rakefile": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/Rakefile",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/assets\/lib\/bourbon\/RELEASING.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/RELEASING.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/border_color_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/border_color_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/border_radius_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/border_radius_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/border_style_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/border_style_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/border_width_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/border_width_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/buttons_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/buttons_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/clearfix_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/clearfix_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/contrast_switch_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/contrast_switch_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/ellipsis_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/ellipsis_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/font_face_spec_1.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/font_face_spec_1.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/font_face_spec_2.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/font_face_spec_2.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/font_face_spec_3.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/font_face_spec_3.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/font_face_spec_4.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/font_face_spec_4.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/font_stacks_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/font_stacks_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/hide_text_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/hide_text_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/hide_visually_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/hide_visually_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/margin_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/margin_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/modular_scale_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/modular_scale_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/overflow_wrap_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/overflow_wrap_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/padding_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/padding_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/position_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/position_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/prefixer_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/prefixer_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/shade_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/shade_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/size_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/size_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/strip_unit_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/strip_unit_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/text_inputs_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/text_inputs_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/tint_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/tint_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/library\/triangle_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/library\/triangle_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/utilities\/assign_inputs_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/utilities\/assign_inputs_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/utilities\/compact_shorthand_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/utilities\/compact_shorthand_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/utilities\/contrast_ratio_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/utilities\/contrast_ratio_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/utilities\/directional_property_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/utilities\/directional_property_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/utilities\/fetch_bourbon_setting_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/utilities\/fetch_bourbon_setting_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/utilities\/font_source_declaration_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/utilities\/font_source_declaration_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/utilities\/gamma_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/utilities\/gamma_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/utilities\/lightness_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/utilities\/lightness_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/utilities\/unpack_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/utilities\/unpack_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/validators\/contains_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/validators\/contains_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/validators\/is_length_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/validators\/is_length_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/validators\/is_number_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/validators\/is_number_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/bourbon\/validators\/is_size_spec.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/bourbon\/validators\/is_size_spec.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/_setup.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bourbon\/css\/_setup.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/border-color.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/border-color.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/border-radius.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/border-radius.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/border-style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/border-style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/border-width.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/border-width.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/clearfix.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/clearfix.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/contrast-switch.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/contrast-switch.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/ellipsis.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/ellipsis.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/font-face-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/font-face-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/font-face-2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/font-face-2.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/font-face-3.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/font-face-3.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/font-face-4.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/font-face-4.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/font-stacks.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/font-stacks.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/hide-text.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/hide-text.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/hide-visually.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/hide-visually.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/margin.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/margin.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/modular-scale.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/modular-scale.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/overflow-wrap.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/overflow-wrap.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/padding.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/padding.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/position.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/position.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/prefixer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/prefixer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/shade.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/shade.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/size.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/size.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/strip-unit.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/strip-unit.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/text-inputs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/text-inputs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/tint.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/tint.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/library\/triangle.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/triangle.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/utilities\/assign-inputs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/assign-inputs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/utilities\/compact-shorthand.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/compact-shorthand.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/utilities\/contrast-ratio.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/contrast-ratio.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/utilities\/directional-property.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/directional-property.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/utilities\/fetch-bourbon-setting.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/fetch-bourbon-setting.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/utilities\/font-source-declaration.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/font-source-declaration.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/utilities\/gamma.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/gamma.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/utilities\/lightness.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/lightness.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/utilities\/unpack.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/unpack.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/validators\/contains.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/contains.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/validators\/is-length.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/is-length.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/validators\/is-number.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/is-number.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/fixtures\/validators\/is-size.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/css\/is-size.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bourbon\/spec\/spec_helper.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/spec_helper.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/support\/matchers\/have_rule.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/support\/matchers\/have_rule.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/support\/matchers\/have_ruleset.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/support\/matchers\/have_ruleset.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/support\/matchers\/have_value.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/support\/matchers\/have_value.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/support\/parser_support.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/support\/parser_support.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bourbon\/spec\/support\/sass_support.rb": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bourbon\/spec\/support\/sass_support.rb",
+		"oF": 0
+		},
+	"\/assets\/lib\/bricks\/.eslintrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/.eslintrc",
+		"oF": 0
+		},
+	"\/assets\/lib\/bricks\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/.gitignore",
+		"oF": 0
+		},
+	"\/assets\/lib\/bricks\/.npmignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/.npmignore",
+		"oF": 0
+		},
+	"\/assets\/lib\/bricks\/CONTRIBUTING.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bricks\/CONTRIBUTING.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/assets\/lib\/bricks\/examples\/example.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bricks\/examples\/example-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/bricks\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bricks\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/lib\/bricks\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bricks\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/assets\/lib\/bricks\/rollup.config.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bricks\/rollup.config-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/bricks\/site\/.babelrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/.babelrc",
+		"oF": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/bundle.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/bundle-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/fonts\/ag.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/fonts\/ag.woff",
+		"oF": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/images\/demo\/fire.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/images\/demo\/fire.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/images\/demo\/reload.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/images\/demo\/reload.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/images\/footer\/cta.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/images\/footer\/cta.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/images\/header\/bricks.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/images\/header\/bricks.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/images\/header\/cta.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/images\/header\/cta.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/images\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/images\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/index.html",
+		"oF": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/lib\/bricks\/site\/gulpfile.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bricks\/site\/gulpfile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/bricks\/site\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bricks\/site\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/lib\/bricks\/site\/src\/fonts\/ag.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/src\/fonts\/ag.woff",
+		"oF": 0
+		},
+	"\/assets\/lib\/bricks\/site\/src\/html\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/src\/html\/index.html",
+		"oF": 0
+		},
+	"\/assets\/lib\/bricks\/site\/src\/images\/demo\/fire.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/src\/images\/demo\/fire.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/src\/images\/demo\/reload.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/src\/images\/demo\/reload.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/src\/images\/footer\/cta.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/src\/images\/footer\/cta.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/src\/images\/header\/bricks.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/src\/images\/header\/bricks.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/src\/images\/header\/cta.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/src\/images\/header\/cta.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/src\/images\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/src\/images\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/src\/js\/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bricks\/site\/src\/js\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/bricks\/site\/src\/js\/util.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bricks\/site\/src\/js\/util-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/bricks\/site\/src\/sass\/_font.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bricks\/site\/css\/_font.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bricks\/site\/src\/sass\/_layout.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bricks\/site\/css\/_layout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bricks\/site\/src\/sass\/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bricks\/site\/css\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bricks\/site\/src\/sass\/_reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bricks\/site\/css\/_reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bricks\/site\/src\/sass\/_vars.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bricks\/site\/css\/_vars.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bricks\/site\/src\/sass\/_z-index.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bricks\/site\/css\/_z-index.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bricks\/site\/src\/sass\/components\/_highlight.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bricks\/site\/src\/css\/_highlight.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bricks\/site\/src\/sass\/components\/_keyframes.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bricks\/site\/src\/css\/_keyframes.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bricks\/site\/src\/sass\/sections\/_content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bricks\/site\/src\/css\/_content.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bricks\/site\/src\/sass\/sections\/_demo.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bricks\/site\/src\/css\/_demo.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bricks\/site\/src\/sass\/sections\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bricks\/site\/src\/css\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bricks\/site\/src\/sass\/sections\/_grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bricks\/site\/src\/css\/_grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bricks\/site\/src\/sass\/sections\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bricks\/site\/src\/css\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bricks\/site\/src\/sass\/sections\/_logo.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/bricks\/site\/src\/css\/_logo.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bricks\/site\/src\/sass\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bricks\/site\/css\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/lib\/bricks\/src\/bricks.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bricks\/src\/bricks-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/bricks\/test\/manual.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/test\/manual.html",
+		"oF": 0
+		},
 	"\/assets\/lib\/fontfaceobserver\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
@@ -1315,6 +3685,910 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/lib\/macy\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/macy\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/css\/icons.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/css\/icons-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/css\/macy.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/css\/macy-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/font\/icons.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/font\/icons.eot",
+		"oF": 0
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/font\/icons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/font\/icons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/font\/icons.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/font\/icons.ttf",
+		"oF": 0
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/font\/icons.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/font\/icons.woff",
+		"oF": 0
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/android-chrome-144x144.png": {
+		"ft": 32768,
+		"iS": 4809,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/android-chrome-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 6232,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/android-chrome-36x36.png": {
+		"ft": 32768,
+		"iS": 1953,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/android-chrome-36x36.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/android-chrome-48x48.png": {
+		"ft": 32768,
+		"iS": 2229,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/android-chrome-48x48.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/android-chrome-72x72.png": {
+		"ft": 32768,
+		"iS": 3023,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/android-chrome-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/android-chrome-96x96.png": {
+		"ft": 32768,
+		"iS": 3288,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/android-chrome-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 4200,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-114x114.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 3977,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-120x120.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 4809,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 5330,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-152x152.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-180x180.png": {
+		"ft": 32768,
+		"iS": 6241,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-180x180.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 2708,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-57x57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-60x60.png": {
+		"ft": 32768,
+		"iS": 2575,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-60x60.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 3023,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 3173,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-76x76.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-precomposed.png": {
+		"ft": 32768,
+		"iS": 7481,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon-precomposed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 6241,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/browserconfig.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 926,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/favicon-194x194.png": {
+		"ft": 32768,
+		"iS": 3795,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/favicon-194x194.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1502,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 1869,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/favicon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/favicon.ico",
+		"oF": 0
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/mstile-144x144.png": {
+		"ft": 32768,
+		"iS": 1607,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/mstile-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 2431,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/mstile-310x150.png": {
+		"ft": 32768,
+		"iS": 2660,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/mstile-310x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/mstile-310x310.png": {
+		"ft": 32768,
+		"iS": 6252,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/mstile-310x310.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/mstile-70x70.png": {
+		"ft": 32768,
+		"iS": 1675,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/favicons\/mstile-70x70.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/lib\/macy\/demo\/assets\/img\/macy-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/macy\/demo\/assets\/img\/macy-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/macy\/demo\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/macy\/demo\/index.html",
+		"oF": 0
+		},
+	"\/assets\/lib\/macy\/dist\/macy.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/dist\/macy-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/macy\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/macy\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/lib\/macy\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/assets\/lib\/macy\/rollup.config.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/rollup.config-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/macy\/src\/helpers\/async.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/macy\/src\/helpers\/async-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/macy\/src\/helpers\/imagesLoaded.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/macy\/src\/helpers\/imagesLoaded-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/macy\/src\/helpers\/isObject.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/macy\/src\/helpers\/isObject-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/macy\/src\/helpers\/NodeListFix.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/macy\/src\/helpers\/NodeListFix-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/macy\/src\/helpers\/prop.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/macy\/src\/helpers\/prop-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/macy\/src\/helpers\/wait.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/macy\/src\/helpers\/wait-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/macy\/src\/macy.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/macy\/src\/macy-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/macy\/src\/modules\/$e.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/macy\/src\/modules\/$e-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/macy\/src\/modules\/calculate.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/macy\/src\/modules\/calculate-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/macy\/src\/modules\/calculations.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/macy\/src\/modules\/calculations-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/macy\/src\/modules\/columns.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/macy\/src\/modules\/columns-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/macy\/yarn.lock": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/macy\/yarn.lock",
+		"oF": 0
+		},
+	"\/assets\/lib\/masonry\/.github\/contributing.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/.github\/contributing.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/assets\/lib\/masonry\/.github\/issue_template.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/.github\/issue_template.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/assets\/lib\/masonry\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/masonry\/.gitignore",
+		"oF": 0
+		},
+	"\/assets\/lib\/masonry\/.jshintrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/masonry\/.jshintrc",
+		"oF": 0
+		},
+	"\/assets\/lib\/masonry\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/masonry\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/lib\/masonry\/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/masonry\/composer-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/lib\/masonry\/dist\/masonry.pkgd.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/dist\/masonry.pkgd-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/masonry\/dist\/masonry.pkgd.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/dist\/masonry.pkgd.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/masonry\/gulpfile.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/gulpfile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/masonry\/masonry.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/masonry-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/masonry\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/assets\/lib\/masonry\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/assets\/lib\/masonry\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/assets\/lib\/masonry\/sandbox\/add-items.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/masonry\/sandbox\/add-items.html",
+		"oF": 0
+		},
+	"\/assets\/lib\/masonry\/sandbox\/basic.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/masonry\/sandbox\/basic.html",
+		"oF": 0
+		},
+	"\/assets\/lib\/masonry\/sandbox\/bottom-up.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/masonry\/sandbox\/bottom-up.html",
+		"oF": 0
+		},
+	"\/assets\/lib\/masonry\/sandbox\/browserify\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/masonry\/sandbox\/browserify\/index.html",
+		"oF": 0
+		},
+	"\/assets\/lib\/masonry\/sandbox\/browserify\/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/sandbox\/browserify\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/masonry\/sandbox\/element-sizing.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/masonry\/sandbox\/element-sizing.html",
+		"oF": 0
+		},
+	"\/assets\/lib\/masonry\/sandbox\/fit-width.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/masonry\/sandbox\/fit-width.html",
+		"oF": 0
+		},
+	"\/assets\/lib\/masonry\/sandbox\/fluid.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/masonry\/sandbox\/fluid.html",
+		"oF": 0
+		},
+	"\/assets\/lib\/masonry\/sandbox\/horizontal-order.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/masonry\/sandbox\/horizontal-order.html",
+		"oF": 0
+		},
+	"\/assets\/lib\/masonry\/sandbox\/jquery.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/masonry\/sandbox\/jquery.html",
+		"oF": 0
+		},
+	"\/assets\/lib\/masonry\/sandbox\/require-js\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/masonry\/sandbox\/require-js\/index.html",
+		"oF": 0
+		},
+	"\/assets\/lib\/masonry\/sandbox\/require-js\/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/sandbox\/require-js\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/masonry\/sandbox\/right-to-left.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/masonry\/sandbox\/right-to-left.html",
+		"oF": 0
+		},
+	"\/assets\/lib\/masonry\/sandbox\/sandbox.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/sandbox\/sandbox-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/lib\/masonry\/sandbox\/stamps.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/masonry\/sandbox\/stamps.html",
+		"oF": 0
+		},
+	"\/assets\/lib\/masonry\/test\/.jshintrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/masonry\/test\/.jshintrc",
+		"oF": 0
+		},
+	"\/assets\/lib\/masonry\/test\/helpers.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/test\/helpers-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/masonry\/test\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/masonry\/test\/index.html",
+		"oF": 0
+		},
+	"\/assets\/lib\/masonry\/test\/tests.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/test\/tests-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/lib\/masonry\/test\/unit\/basic-layout.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/test\/unit\/basic-layout-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/masonry\/test\/unit\/element-sizing.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/test\/unit\/element-sizing-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/masonry\/test\/unit\/empty.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/test\/unit\/empty-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/masonry\/test\/unit\/fit-width.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/test\/unit\/fit-width-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/masonry\/test\/unit\/gutter.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/test\/unit\/gutter-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/masonry\/test\/unit\/horizontal-order.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/test\/unit\/horizontal-order-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/masonry\/test\/unit\/pixel-rounding.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/test\/unit\/pixel-rounding-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/masonry\/test\/unit\/stamp.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/test\/unit\/stamp-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/masonry\/test\/unit\/zero-column-width.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/masonry\/test\/unit\/zero-column-width-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/picturefill\/picturefill.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/picturefill\/picturefill-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/scss\/_actualites.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1445,6 +4719,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/scss\/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/css\/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/scss\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1508,114 +4795,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/main.css.map",
-		"oF": 0
-		},
-	"\/fonts\/AustinNewsText-Roman.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/AustinNewsText-Roman.eot",
-		"oF": 0
-		},
-	"\/fonts\/AustinNewsText-Roman.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/AustinNewsText-Roman.ttf",
-		"oF": 0
-		},
-	"\/fonts\/AustinNewsText-Roman.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/AustinNewsText-Roman.woff",
-		"oF": 0
-		},
-	"\/fonts\/DuplicateSlab-Black.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/DuplicateSlab-Black.eot",
-		"oF": 0
-		},
-	"\/fonts\/DuplicateSlab-Black.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/DuplicateSlab-Black.ttf",
-		"oF": 0
-		},
-	"\/fonts\/DuplicateSlab-Black.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/DuplicateSlab-Black.woff",
-		"oF": 0
-		},
-	"\/fonts\/DuplicateSlab-Light.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/DuplicateSlab-Light.eot",
-		"oF": 0
-		},
-	"\/fonts\/DuplicateSlab-Light.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/DuplicateSlab-Light.ttf",
-		"oF": 0
-		},
-	"\/fonts\/DuplicateSlab-Light.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/DuplicateSlab-Light.woff",
-		"oF": 0
-		},
-	"\/fonts\/DuplicateSlab-Medium.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/DuplicateSlab-Medium.eot",
-		"oF": 0
-		},
-	"\/fonts\/DuplicateSlab-Medium.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/DuplicateSlab-Medium.ttf",
-		"oF": 0
-		},
-	"\/fonts\/DuplicateSlab-Medium.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/DuplicateSlab-Medium.woff",
-		"oF": 0
-		},
-	"\/fonts\/DuplicateSlab-RegularItalic.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/DuplicateSlab-RegularItalic.eot",
-		"oF": 0
-		},
-	"\/fonts\/DuplicateSlab-RegularItalic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/DuplicateSlab-RegularItalic.ttf",
-		"oF": 0
-		},
-	"\/fonts\/DuplicateSlab-RegularItalic.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/DuplicateSlab-RegularItalic.woff",
-		"oF": 0
-		},
-	"\/fonts\/DuplicateSlab-Thin.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/DuplicateSlab-Thin.eot",
-		"oF": 0
-		},
-	"\/fonts\/DuplicateSlab-Thin.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/DuplicateSlab-Thin.ttf",
-		"oF": 0
-		},
-	"\/fonts\/DuplicateSlab-Thin.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/DuplicateSlab-Thin.woff",
 		"oF": 0
 		},
 	"\/header-home-article.jpg": {
@@ -1721,131 +4900,11 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
-	"\/indexLT.php": {
+	"\/indexH.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/indexLT.php",
+		"oAP": "\/indexH.php",
 		"oF": 0
-		},
-	"\/js\/animation.gsap.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/animation.gsap-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/debug.addIndicators.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/debug.addIndicators.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/handlebars-v4.0.4.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/handlebars-v4.0.4-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/header-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/header-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/header.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/header-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/jquery.ScrollMagic.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/jquery.ScrollMagic.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/lazyload.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/lazyload-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/main.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/main-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/picturefill-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/picturefill-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/picturefill.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/picturefill-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/timeline.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/timeline-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/viewport.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/viewport-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"\/json\/data.json": {
 		"ft": 524288,

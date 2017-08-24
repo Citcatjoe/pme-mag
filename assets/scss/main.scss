@@ -1,3 +1,5 @@
+//@import "../lib/bourbon/core/bourbon"; 
+
 //=====================================================================//
 // BOOTSTRAP v4.0.0-alpha.6 (https://getbootstrap.com)
 //=====================================================================//
@@ -57,6 +59,7 @@
 // @import "bourbon"; /*Bourbon mixins*/         
 //@import "barbarian_reset"; /*Boxes settings*/       
 @import "base"; /*Colors, fonts, z-index, breakpoints...*/
+@import "typography";
 // @import "fontface";
 @import "elements"; /*Header, section, article, footer...*/
 

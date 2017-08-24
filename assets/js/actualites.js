@@ -1,0 +1,1 @@
+var msnry = new Masonry('.wall', {gutter: 0});

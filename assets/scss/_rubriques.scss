@@ -17,7 +17,7 @@ section.rubrique
 
 section.rubrique:not(.rubrique-actualites) article 
 {
-	border: 1px solid #efefef;
+	border: 1px solid $gray-line;
 	margin-bottom: 30px;
 	transition: all 0.2s;
 	overflow: auto;
@@ -117,7 +117,7 @@ section.rubrique:not(.rubrique-actualites) article.article-sm div.article-figure
 		{
 			@include breakpoint(md) { 
 					
-				border: 1px solid #efefef;
+				border: 1px solid $gray-line;
 			}
 
 			@include breakpoint(sm) { 
@@ -166,7 +166,7 @@ section.rubrique:not(.rubrique-actualites) article.article-sm div.article-excerp
 		width: 75%;
 		float: left;
 		height: 135px;
-		border: 1px solid #efefef;
+		border: 1px solid $gray-line;
 	}
 
 	@include breakpoint(sm) {
@@ -200,18 +200,18 @@ section.rubrique:not(.rubrique-actualites) article span.article-kicker
 	}
 }
 
-section.rubrique:not(.rubrique-actualites) article span.article-signature
-{
-	position: absolute;
-	font-size: 14px;
-	line-height: 20px;
-	bottom: 15px;
-	font-family: 'Duplicate Slab';
-	font-weight: 300;
-	color: $article-signature-color;
-	-webkit-font-smoothing: antialiased; 
-	-moz-osx-font-smoothing: grayscale;
-}
+// section.rubrique:not(.rubrique-actualites) article span.article-signature
+// {
+// 	position: absolute;
+// 	font-size: 14px;
+// 	line-height: 20px;
+// 	bottom: 15px;
+// 	font-family: 'Duplicate Slab';
+// 	font-weight: 300;
+// 	color: $article-signature-color;
+// 	-webkit-font-smoothing: antialiased; 
+// 	-moz-osx-font-smoothing: grayscale;
+// }
 
 section.rubrique-media // FAUDRAIT CHECKER UN COUP
 {

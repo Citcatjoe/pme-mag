@@ -10,40 +10,50 @@
 		<style>
 		@font-face {
 			font-family: 'Duplicate Slab';
-			src: url('./fonts/DuplicateSlab-Light.eot');
-			src: url('./fonts/DuplicateSlab-Light.eot?#iefix') format('embedded-opentype'),
-				url('./fonts/DuplicateSlab-Light.woff') format('woff'),
-				url('./fonts/DuplicateSlab-Light.ttf') format('truetype');
+			src: url('./assets/fonts/DuplicateSlab-Light.eot');
+			src: url('./assets/fonts/DuplicateSlab-Light.eot?#iefix') format('embedded-opentype'),
+				url('./assets/fonts/DuplicateSlab-Light.woff') format('woff'),
+				url('./assets/fonts/DuplicateSlab-Light.ttf') format('truetype');
 			font-weight: 300;
 			font-style: normal;
 		}
 
 		@font-face {
 			font-family: 'Duplicate Slab';
-			src: url('./fonts/DuplicateSlab-RegularItalic.eot');
-			src: url('./fonts/DuplicateSlab-RegularItalic.eot?#iefix') format('embedded-opentype'),
-				url('./fonts/DuplicateSlab-RegularItalic.woff') format('woff'),
-				url('./fonts/DuplicateSlab-RegularItalic.ttf') format('truetype');
+			src: url('./assets/fonts/DuplicateSlab-RegularItalic.eot');
+			src: url('./assets/fonts/DuplicateSlab-RegularItalic.eot?#iefix') format('embedded-opentype'),
+				url('./assets/fonts/DuplicateSlab-RegularItalic.woff') format('woff'),
+				url('./assets/fonts/DuplicateSlab-RegularItalic.ttf') format('truetype');
 			font-weight: 400;
 			font-style: italic;
 		}
 
 		@font-face {
 			font-family: 'Duplicate Slab';
-			src: url('./fonts/DuplicateSlab-Medium.eot');
-			src: url('./fonts/DuplicateSlab-Medium.eot?#iefix') format('embedded-opentype'),
-				url('./fonts/DuplicateSlab-Medium.woff') format('woff'),
-				url('./fonts/DuplicateSlab-Medium.ttf') format('truetype');
+			src: url('./assets/fonts/DuplicateSlab-Medium.eot');
+			src: url('./assets/fonts/DuplicateSlab-Medium.eot?#iefix') format('embedded-opentype'),
+				url('./assets/fonts/DuplicateSlab-Medium.woff') format('woff'),
+				url('./assets/fonts/DuplicateSlab-Medium.ttf') format('truetype');
 			font-weight: 500;
 			font-style: normal;
 		}
 
 		@font-face {
+			font-family: 'Duplicate Slab';
+			src: url('./assets/fonts/DuplicateSlab-Black.eot');
+			src: url('./assets/fonts/DuplicateSlab-Black.eot?#iefix') format('embedded-opentype'),
+				url('./assets/fonts/DuplicateSlab-Black.woff') format('woff'),
+				url('./assets/fonts/DuplicateSlab-Black.ttf') format('truetype');
+			font-weight: 900;
+			font-style: normal;
+		}
+
+		@font-face {
 			font-family: 'Austin News Text Roman';
-			src: url('./fonts/AustinNewsText-Roman.eot');
-			src: url('./fonts/AustinNewsText-Roman.eot?#iefix') format('embedded-opentype'),
-				url('./fonts/AustinNewsText-Roman.woff') format('woff'),
-				url('./fonts/AustinNewsText-Roman.ttf') format('truetype');
+			src: url('./assets/fonts/AustinNewsText-Roman.eot');
+			src: url('./assets/fonts/AustinNewsText-Roman.eot?#iefix') format('embedded-opentype'),
+				url('./assets/fonts/AustinNewsText-Roman.woff') format('woff'),
+				url('./assets/fonts/AustinNewsText-Roman.ttf') format('truetype');
 			font-weight: 500;
 			font-style: normal;
 		}
@@ -136,8 +146,8 @@
 			</div>
 		</header>
 
-		<section class="dossier">
-			<div class="jumbotron">
+		<section class="dossier is-not-centered">
+			<div class="dossier-inner">
 				<!-- <img src="img/dossier.png" alt=""> -->
 				<picture>
 					<!--[if IE 9]><video style="display: none;"><![endif]-->
@@ -147,16 +157,15 @@
 					<!--[if IE 9]></video><![endif]-->
 					<img class="picture" src="img/dossier.png" alt="">
 				</picture>
+				<div class="dossier-overlay"></div>
 				<div class="container">
-					{# <div class="dossier-text is-not-centered"> #}
 						<span class="badge">DOSSIER</span>
 						<h1>Entrepreneur à temps partiel</h1>
-						<p class="lead is-not-centered">Créer sa société sans risquer la banqueroute, c’est possible: en consacrant une partie de son temps à son projet, tout en continuant à travailler comme salarié.</p>
-					{# </div> #}
+						<p class="lead">Créer sa société sans risquer la banqueroute, c’est possible: en consacrant une partie de son temps à son projet, tout en continuant à travailler comme salarié.</p>
 				</div>
 			</div>
 			<div class="container">
-				<p class="lead lead-mobile is-not-centered">Créer sa société sans risquer la banqueroute, c’est possible: en consacrant une partie de son temps à son projet, tout en continuant à travailler comme salarié.</p>
+				<p class="lead lead-mobile">Créer sa société sans risquer la banqueroute, c’est possible: en consacrant une partie de son temps à son projet, tout en continuant à travailler comme salarié.</p>
 			</div>
 		</section>
 
@@ -168,55 +177,87 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-12 masonry">
-						<article>
-							<h2>1</h2>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, vel animi. Amet beatae illum soluta alias eaque. Inventore animi eum sapiente aut recusandae fugiat, harum, et, commodi dignissimos veniam obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam unde accusamus recusandae ullam quos! Quae voluptatum voluptas laboriosam recusandae iste, eius iusto voluptate corporis sed ullam reprehenderit ad atque veritatis?
+					<div class="col-md-12 wall">
+						<article> 
+							<div class="article-figure">
+								<figure>
+									<img src="img/thumb1.jpg" alt="">
+								</figure>
+								<figcaption>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam enim, facere quidem iste. Ex odit, et hic eius voluptas provident suscipit dolore at, iure, natus aliquam, sequi excepturi possimus molestias!
+								</figcaption>
+							</div>
+							<div class="article-excerpt">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque aspernatur cumque libero non, mollitia, laboriosam veritatis blanditiis architecto sunt nemo totam voluptates quasi molestias illo, voluptatum dignissimos ducimus. Earum, necessitatibus.
+							</div>
 						</article>
 						<article>
-							<h2>2</h2>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. A tempore hic excepturi, omnis rerum. Voluptas quia tempora ad, ipsa numquam quidem praesentium voluptate optio. Illo voluptate iste rerum, possimus provident.
+							<div class="article-excerpt">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. A tempore hic excepturi, omnis rerum. Voluptas quia tempora ad, ipsa numquam quidem praesentium voluptate optio. Illo voluptate iste rerum, possimus provident.
+							</div>
 						</article>
 						<article>
-							<h2>3</h2>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque aspernatur cumque libero non, mollitia, laboriosam veritatis blanditiis architecto sunt nemo totam voluptates quasi molestias illo, voluptatum dignissimos ducimus. Earum, necessitatibus.
+							<div class="article-excerpt">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. A tempore hic excepturi, omnis rerum. Voluptas quia tempora ad, ipsa numquam quidem praesentium voluptate optio. Illo voluptate iste rerum, possimus provident.
+							</div>
+						</article>
+						<article class="inside">
+							<div class="article-excerpt">
+								<span class="badge">INSIDE</span>
+								<h5>
+									De Bethune: vers une annonces imminente?
+								</h5>
+							</div>
+						</article>
+						<article class="inside">
+							<div class="article-excerpt">
+								<span class="badge">INSIDE</span>
+								<h5>
+									Le Biopôle accueille un groupe canadien
+								</h5>
+							</div>
+						</article>
+						<article class="oeilencoin">
+							<div class="article-excerpt">
+								<span class="oeilencoin-title">L'œil en coin</span>
+								<h2 class="article-title">Cyberattaque: le «cloud» va-t-il nous tomber sur la tête?</h2>
+								<span class="article-signature">MA</span>
+							</div>
 						</article>
 						<article>
-							<h2>4</h2>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit magnam excepturi, officiis, modi, nesciunt non ex perferendis cumque fugit, consequuntur recusandae et. Officia, magni. Laboriosam, fuga non optio enim suscipit!
+							<div class="article-excerpt">
+								<h5>
+									Vignerons romands: le gel de trop et des aides qui ne viennent pas à temps
+								</h5>
+							</div>
 						</article>
 						<article>
-							<h2>5</h2>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, vel animi. Amet beatae illum soluta alias eaque. Inventore animi eum sapiente aut recusandae fugiat, harum, et, commodi dignissimos veniam obcaecati. 
+							<div class="article-excerpt">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. A tempore hic excepturi, omnis rerum. Voluptas quia tempora ad, ipsa numquam quidem praesentium voluptate optio. Illo voluptate iste rerum, possimus provident.
+							</div>
 						</article>
 						<article>
-							<h2>6</h2>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. A tempore hic excepturi, omnis rerum. Voluptas quia tempora ad, ipsa numquam quidem praesentium voluptate optio. Illo voluptate iste rerum, possimus provident.
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam unde accusamus recusandae ullam quos! Quae voluptatum voluptas laboriosam recusandae iste, eius iusto voluptate corporis sed ullam reprehenderit ad atque veritatis?
+							<div class="article-excerpt">
+								<h2>La banque Cler lance un marketing osé. Pari gagné?</h2>
+								<span class="article-lead">
+									l’ex-banque Coop se fait connaître avec des solgans qui reventiquent le droit des parler franchemen d’argent…
+								</span>
+							</div>
 						</article>
 						<article>
-							<h2>7</h2>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque aspernatur cumque libero non, mollitia, laboriosam veritatis blanditiis architecto sunt nemo totam voluptates quasi molestias illo, voluptatum dignissimos ducimus. Earum, necessitatibus.
+							<div class="article-excerpt">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. A tempore hic excepturi, omnis rerum. Voluptas quia tempora ad, ipsa numquam quidem praesentium voluptate optio. Illo voluptate iste rerum, possimus provident.
+							</div>
 						</article>
 						<article>
-							<h2>8</h2>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit magnam excepturi, officiis, modi, nesciunt non ex perferendis cumque fugit, consequuntur recusandae et. Officia, magni. Laboriosam, fuga non optio enim suscipit!
+							<div class="article-excerpt">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. A tempore hic excepturi, omnis rerum. Voluptas quia tempora ad, ipsa numquam quidem praesentium voluptate optio. Illo voluptate iste rerum, possimus provident.
+							</div>
 						</article>
 						<article>
-							<h2>9</h2>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, vel animi. Amet beatae illum soluta alias eaque. Inventore animi eum sapiente aut recusandae fugiat, harum, et, commodi dignissimos veniam obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam unde accusamus recusandae ullam quos! Quae voluptatum voluptas laboriosam recusandae iste, eius iusto voluptate corporis sed ullam reprehenderit ad atque veritatis?
-						</article>
-						<article>
-							<h2>10</h2>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. A tempore hic excepturi, omnis rerum. Voluptas quia tempora ad, ipsa numquam quidem praesentium voluptate optio. Illo voluptate iste rerum, possimus provident.
-						</article>
-						<article>
-							<h2>11</h2>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque aspernatur cumque libero non, mollitia, laboriosam veritatis blanditiis architecto sunt nemo totam voluptates quasi molestias illo, voluptatum dignissimos ducimus. Earum, necessitatibus.
-						</article>
-						<article>
-							<h2>12</h2>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit magnam excepturi, officiis, modi, nesciunt non ex perferendis cumque fugit, consequuntur recusandae et. Officia, magni. Laboriosam, fuga non optio enim suscipit!
+							<div class="article-excerpt">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. A tempore hic excepturi, omnis rerum. Voluptas quia tempora ad, ipsa numquam quidem praesentium voluptate optio. Illo voluptate iste rerum, possimus provident.
+							</div>
 						</article>
 					</div>
 				</div>
@@ -388,9 +429,14 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
-        <script src="js/main.js"></script>
-        <script src="js/header.js"></script>
-		<script src="js/picturefill.js"></script>
+        
+		<script src="assets/lib/picturefill/picturefill.js"></script>
+		<!--<script src="assets/lib/macy/dist/macy.js"></script>-->
+		<script src="assets/lib/masonry/dist/masonry.pkgd.min.js"></script>
+
+		<script src="assets/js/main.js"></script>
+        <script src="assets/js/header.js"></script>
+        <script src="assets/js/actualites.js"></script>	
 
 		
 	</body>

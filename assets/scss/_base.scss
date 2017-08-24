@@ -1,16 +1,26 @@
 @charset "UTF-8"; 
 
 //=====================================================================//
+// BOXES SETTINGS
+//=====================================================================//
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }  
+
+//=====================================================================//
 // COLORS
 //=====================================================================//
-$gray-line: #DCDCDC;
+$gray-line: #efefef; //borders
 $gray-bg: #f2f2f2;
-$pme-color: #912E3F;
+$pme-color: #912E3F; //red
 $gray-text: #6e6e6e;
 $odd-rubrique-bg: #f6f6f6;
-$bg-mine-shaft: #323232;
+$bg-mine-shaft: #323232; //dark gray
 
-$article-signature-color: #B1B1B1;
+$article-signature-color: #B1B1B1; //light gray
 
 $title-color: #333333;
 $title-color-ondark: #cacaca;
@@ -82,93 +92,7 @@ html { margin:0; padding: 0; }
 body { margin: 0; padding: 0; height: 100%; }
 img { display:block; width: 100%; }
 
-//Titre dans le jumbotron
-h1
-{
-    margin: 17px 0 20px 0;
-    color: #fff !important;
-    max-width: 500px;
 
-    font-family: 'Austin News Text Roman';
-    font-weight: 500 !important;
-    font-size: 60px !important;
-    letter-spacing: 0;
-    line-height: 53px;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.30);
-    -webkit-font-smoothing: antialiased; 
-    -moz-osx-font-smoothing: grayscale;
-
-    @include breakpoint(md) {
-      font-size: 50px !important;
-      line-height: 45px;
-      margin: 17px 0 15px 0;
-    }
-
-    @include breakpoint(sm) {
-      font-size: 30px !important;
-      line-height: 30px;
-      margin: 10px 0 0 0;
-      max-width: 250px;
-    }
-}
-
-h2
-{
-    
-}
-
-h3
-{
-    text-align: center;
-    font-family: 'Duplicate Slab';
-    font-size: 26px;
-    font-weight: 300;
-    color: $gray-text;
-    -webkit-font-smoothing: antialiased; 
-    -moz-osx-font-smoothing: grayscale;
-    margin: 15px 0 65px 0;;
-}
-
-h4
-{
-    font-family: 'Austin News Text Roman';
-    font-weight: 500;
-    -webkit-font-smoothing: antialiased; 
-    -moz-osx-font-smoothing: grayscale;
-    margin-top: 10px; 
-    margin-bottom: 10px;
-} 
-
-h5
-{
-   
-}
-
-h6 
-{
-    
-}
-
-p 
-{
-   
-}
-
-p
-{
-  
-}
-
-a 
-{
-    color: inherit;
-
-    &:hover
-    {
-      color: inherit;
-      text-decoration: none;
-    }
-}
 
 
 

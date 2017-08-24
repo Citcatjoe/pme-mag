@@ -1,25 +1,106 @@
 section.rubrique-actualites
 {
+	article {
+		// width: 48%;
+		// margin-right: 1%;
+		//margin-bottom: 15px;
+	}
+}
+
+section.rubrique-actualites article
+{
+	border: 1px solid red;
+	//padding: 20px;
+	//position: relative;
+	line-height: 20px;
+
+	div.article-figure
+	{
+		figure { margin: 0; }
+
+		figcaption { display: none; }
+	}
+
+	div.article-excerpt
+	{
+		padding: 20px;
+
+		span.article-lead
+		{
+			font-family: 'Duplicate Slab';
+			font-weight: 300;
+			font-size: 14px;
+			color: $gray-text;
+			letter-spacing: 0;
+		}
+
+		h2.article-title
+		{
+			font-family: 'Austin News Text Roman';
+			font-weight: 500;
+			font-size: 21px;
+			color: $title-color;
+			letter-spacing: 0;
+			line-height: 25px;
+			margin-bottom: 30px;
+		}
+
+		span.article-signature
+		{
+			left: 50%;
+	    	transform: translateX(-50%);
+		}
+		
+	}
+
 	
 }
 
-section.rubrique-actualites div.masonry
+section.rubrique-actualites article.oeilencoin
 {
-	// -moz-column-width: 13em;
-	// -webkit-column-width: 13em;
-	// -moz-column-gap: 1em;
-	// -webkit-column-gap: 1em; 
+	border-top: 4px solid $pme-color;
+	text-align: center;
+
+	span.oeilencoin-title
+	{
+		display: inline-block;
+		margin-top: 8px;
+    	margin-bottom: 15px;
+		font-family: 'Duplicate Slab';
+		font-weight: 900;
+		font-size: 21px;
+		color: $gray-text;
+		//color: #767676;
+		letter-spacing: 0;
+		line-height: 22px;
+		-webkit-font-smoothing: antialiased; 
+    	-moz-osx-font-smoothing: grayscale;
+	}
 }
 
-section.rubrique-actualites div.masonry article
+section.rubrique-actualites article.inside
 {
-	border: 1px solid red;
-	padding: 10px;
-	width: 25%;
-	float: left;
+	background: $odd-rubrique-bg;
+	//padding-top: 30px;
 
-	// display: inline-block;
-	// margin:  0.25rem;
-	// width:  100%; 
-	// background:  #efefef;
+	div.article-excerpt
+	{
+		position: relative;
+		padding-top: 30px;
+
+		span.badge
+		{
+			position: absolute;
+			top:0;
+			left: 20px;
+		}
+	}
+
+	
 }
+
+
+
+
+
+
