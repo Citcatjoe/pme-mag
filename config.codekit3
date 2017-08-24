@@ -1628,6 +1628,46 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/1280x500.jpg": {
+		"ft": 16384,
+		"iS": 272306,
+		"oA": 0,
+		"oAP": "\/img\/1280x500.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/576x288.jpg": {
+		"ft": 16384,
+		"iS": 86341,
+		"oA": 0,
+		"oAP": "\/img\/576x288.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/767x200.jpg": {
+		"ft": 16384,
+		"iS": 113754,
+		"oA": 0,
+		"oAP": "\/img\/767x200.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/992x400.jpg": {
+		"ft": 16384,
+		"iS": 180400,
+		"oA": 0,
+		"oAP": "\/img\/992x400.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/dossier.png": {
 		"ft": 32768,
 		"iS": 1547210,
@@ -1679,6 +1719,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.php",
+		"oF": 0
+		},
+	"\/indexLT.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/indexLT.php",
 		"oF": 0
 		},
 	"\/js\/animation.gsap.js": {
@@ -1757,6 +1803,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/picturefill-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/picturefill-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3408,6 +3464,12 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/templates\/_blocks.html.twig": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/templates\/_blocks.html.twig",
+		"oF": 0
 		},
 	"\/templates\/README.md": {
 		"cS": 0,

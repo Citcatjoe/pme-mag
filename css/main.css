@@ -6036,36 +6036,6 @@ h4 {
   margin-top: 10px;
   margin-bottom: 10px; }
 
-p.lead {
-  font-family: 'Duplicate Slab';
-  font-size: 21px;
-  font-style: italic;
-  color: #FFFFFF;
-  letter-spacing: 1.5px;
-  line-height: 25px;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-  @media (max-width: 991px) {
-    p.lead {
-      font-size: 18px;
-      line-height: 22px; } }
-  @media (max-width: 767px) {
-    p.lead {
-      font-size: 16px;
-      display: none; } }
-  p.lead.lead-xs {
-    display: none;
-    text-shadow: none;
-    color: #6e6e6e;
-    margin-top: 10px;
-    text-align: center; }
-    @media (max-width: 767px) {
-      p.lead.lead-xs {
-        display: block; } }
-    p.lead.lead-xs.is-centered {
-      text-align: center; }
-
 a {
   color: inherit; }
   a:hover {
@@ -6237,29 +6207,47 @@ section.dossier div.jumbotron {
     top: 0;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%); }
-    section.dossier div.jumbotron div.container div.dossier-text {
-      max-width: 640px; }
-      @media (max-width: 767px) {
-        section.dossier div.jumbotron div.container div.dossier-text {
-          top: auto;
-          bottom: -15px;
-          transform: translateY(0); } }
-      section.dossier div.jumbotron div.container div.dossier-text.is-centered {
-        text-align: center;
+    transform: translate(-50%, -50%);
+    padding-right: 400px; }
+    @media (max-width: 991px) {
+      section.dossier div.jumbotron div.container {
+        padding-right: 300px; } }
+    @media (max-width: 767px) {
+      section.dossier div.jumbotron div.container {
+        padding-right: 0;
         top: auto;
-        bottom: -15px;
-        left: 50%;
-        transform: translateX(-50%); }
-        @media (max-width: 767px) {
-          section.dossier div.jumbotron div.container div.dossier-text.is-centered {
-            max-width: 100%;
-            width: 100%; } }
-        section.dossier div.jumbotron div.container div.dossier-text.is-centered h1 {
-          max-width: 100%; }
-        section.dossier div.jumbotron div.container div.dossier-text.is-centered p.lead {
-          margin-left: -100px;
-          margin-right: -100px; }
+        left: 0;
+        bottom: 10px;
+        transform: translateY(0); } }
+
+.lead {
+  font-family: 'Duplicate Slab';
+  font-size: 21px;
+  font-style: italic;
+  color: #FFFFFF;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  @media (max-width: 991px) {
+    .lead {
+      font-size: 18px;
+      line-height: 22px; } }
+  @media (max-width: 767px) {
+    .lead {
+      font-size: 16px;
+      display: none; } }
+  .lead.lead-mobile {
+    display: none;
+    text-shadow: none;
+    color: #6e6e6e;
+    margin-top: 10px; }
+    @media (max-width: 767px) {
+      .lead.lead-mobile {
+        display: block; } }
+    .lead.lead-mobile.is-centered {
+      text-align: center; }
 
 section.rubrique-actualites div.masonry article {
   border: 1px solid red;

@@ -154,50 +154,8 @@ p
    
 }
 
-//Chapeau du jumbotron
-p.lead
+p
 {
-  font-family: 'Duplicate Slab';
-  font-size: 21px;
-  font-style: italic;
-  color: #FFFFFF;
-  letter-spacing: 1.5px;
-  line-height: 25px;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.30);
-  -webkit-font-smoothing: antialiased; 
-  -moz-osx-font-smoothing: grayscale;
-
-  @include breakpoint(md) {
-    font-size: 18px;
-    line-height: 22px;
-  }
-
-  @include breakpoint(sm) {
-        font-size: 16px;
-        display: none;
-
-      }
-
-  &.lead-xs
-    {
-      display: none;
-      text-shadow: none;
-      color: $gray-text;
-      margin-top: 10px;
-      text-align: center;
-
-      @include breakpoint(sm) {
-        display: block;
-
-
-      }
-
-      &.is-centered
-      {
-        text-align: center;
-      }
-    }
-
   
 }
 
