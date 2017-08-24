@@ -6309,10 +6309,6 @@ section.dossier.is-centered {
       margin-right: auto; }
 
 section.rubrique-actualites article {
-  width: 48%;
-  margin-right: 1%; }
-
-section.rubrique-actualites article {
   border: 1px solid red;
   line-height: 20px; }
   section.rubrique-actualites article div.article-figure figure {

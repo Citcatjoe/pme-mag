@@ -1,1 +1,1 @@
-var msnry=new Masonry(".wall",{gutter:0});
+var masonry=new Macy({container:".wall",trueOrder:!1,waitForImages:!0,debug:!0,margin:{x:10,y:10},columns:6,breakAt:{1200:{columns:5,margin:{x:23,y:4}},940:{margin:{y:23}},520:{columns:3,margin:3},400:{columns:2}}});

@@ -1,1 +1,34 @@
-var msnry = new Masonry('.wall', {gutter: 0});
+//var msnry = new Masonry('.wall', {gutter: 15});
+
+var masonry = new Macy({
+        container: '.wall',
+        trueOrder: false,
+        waitForImages: true,
+        debug: true,
+        margin: {
+            x: 10,
+            y: 10
+        },
+        columns: 6,
+        breakAt: {
+          1200: {
+            columns: 5,
+            margin: {
+                x: 23,
+                y: 4
+            }
+          },
+          940: {
+            margin: {
+                y: 23
+            }
+          },
+          520: {
+            columns: 3,
+            margin: 3,
+          },
+          400: {
+            columns: 2
+          }
+        }
+      });
