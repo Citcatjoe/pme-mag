@@ -3032,6 +3032,98 @@
 		"oAP": "\/assets\/lib\/bricks\/site\/.babelrc",
 		"oF": 0
 		},
+	"\/assets\/lib\/bricks\/site\/dist\/bundle.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/bundle-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/fonts\/ag.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/fonts\/ag.woff",
+		"oF": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/images\/demo\/fire.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/images\/demo\/fire.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/images\/demo\/reload.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/images\/demo\/reload.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/images\/footer\/cta.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/images\/footer\/cta.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/images\/header\/bricks.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/images\/header\/bricks.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/images\/header\/cta.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/images\/header\/cta.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/images\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/images\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/index.html",
+		"oF": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/assets\/lib\/bricks\/site\/gulpfile.js": {
 		"ft": 64,
 		"ma": 0,
@@ -4808,10 +4900,10 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
-	"\/indexLT.php": {
+	"\/indexH.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/indexLT.php",
+		"oAP": "\/indexH.php",
 		"oF": 0
 		},
 	"\/json\/data.json": {
