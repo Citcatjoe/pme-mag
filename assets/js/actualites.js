@@ -6,29 +6,27 @@ var masonry = new Macy({
         waitForImages: true,
         debug: true,
         margin: {
-            x: 10,
-            y: 10
+            x: 25,
+            y: 25
         },
-        columns: 6,
+        columns: 4,
         breakAt: {
-          1200: {
-            columns: 5,
-            margin: {
-                x: 23,
-                y: 4
-            }
-          },
-          940: {
-            margin: {
-                y: 23
-            }
-          },
-          520: {
+          991: {
             columns: 3,
-            margin: 3,
+            margin: {
+                x: 25,
+                y: 25
+            }
           },
-          400: {
-            columns: 2
+          767: {
+            margin: {
+                x: 25,
+                y: 25
+            }
+          },
+          500: {
+            columns: 3,
+            margin: 10
           }
         }
       });

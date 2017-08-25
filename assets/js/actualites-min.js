@@ -1,1 +1,1 @@
-var masonry=new Macy({container:".wall",trueOrder:!1,waitForImages:!0,debug:!0,margin:{x:10,y:10},columns:6,breakAt:{1200:{columns:5,margin:{x:23,y:4}},940:{margin:{y:23}},520:{columns:3,margin:3},400:{columns:2}}});
+var masonry=new Macy({container:".wall",trueOrder:!1,waitForImages:!0,debug:!0,margin:{x:25,y:25},columns:4,breakAt:{991:{columns:3,margin:{x:25,y:25}},767:{margin:{x:25,y:25}},500:{columns:3,margin:10}}});

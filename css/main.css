@@ -6309,7 +6309,7 @@ section.dossier.is-centered {
       margin-right: auto; }
 
 section.rubrique-actualites article {
-  border: 1px solid red;
+  border: 1px solid #efefef;
   line-height: 20px; }
   section.rubrique-actualites article div.article-figure figure {
     margin: 0; }
@@ -6318,18 +6318,21 @@ section.rubrique-actualites article {
   section.rubrique-actualites article div.article-excerpt {
     padding: 20px; }
     section.rubrique-actualites article div.article-excerpt span.article-lead {
+      display: block;
       font-family: 'Duplicate Slab';
       font-weight: 300;
-      font-size: 14px;
+      font-size: 16px;
+      line-height: 22px;
       color: #6e6e6e;
-      letter-spacing: 0; }
+      letter-spacing: 0;
+      margin-top: 10px; }
     section.rubrique-actualites article div.article-excerpt h2.article-title {
       font-family: 'Austin News Text Roman';
       font-weight: 500;
-      font-size: 21px;
+      font-size: 16px;
+      line-height: 22px;
       color: #333333;
       letter-spacing: 0;
-      line-height: 25px;
       margin-bottom: 30px; }
     section.rubrique-actualites article div.article-excerpt span.article-signature {
       left: 50%;
@@ -6350,6 +6353,9 @@ section.rubrique-actualites article.oeilencoin {
     line-height: 22px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
+  section.rubrique-actualites article.oeilencoin h2.article-title {
+    font-size: 21px !important;
+    line-height: 25px !important; }
 
 section.rubrique-actualites article.inside {
   background: #f6f6f6; }
