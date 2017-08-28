@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/article.html.twig": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/article.html.twig",
+		"oF": 0
+		},
 	"\/assets\/fonts\/AustinNewsText-Roman.eot": {
 		"ft": 8192,
 		"oA": 2,
