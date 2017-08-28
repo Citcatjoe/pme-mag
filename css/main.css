@@ -6014,7 +6014,7 @@ h1 {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     h1 {
       font-size: 50px !important;
       line-height: 45px;
@@ -6035,7 +6035,7 @@ h3 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 15px 0 65px 0; }
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     h3 {
       margin: 15px 0 45px 0; } }
 
@@ -6080,7 +6080,7 @@ span.article-signature {
 
 div.container {
   width: 1025px; }
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     div.container {
       width: 750px; } }
   @media (max-width: 768px) {
@@ -6130,7 +6130,7 @@ div.spacer {
 /*Header, section, article, footer...*/
 header {
   margin-bottom: 54px; }
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     header {
       margin-bottom: 40px; } }
   header img.header-logo {
@@ -6141,7 +6141,7 @@ header {
     width: 100%;
     border-top: 1px solid #efefef;
     border-bottom: 1px solid #efefef; }
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
       header div.nav-wrapper {
         position: relative; } }
     header div.nav-wrapper nav li {
@@ -6154,7 +6154,7 @@ header {
       -moz-osx-font-smoothing: grayscale;
       margin-right: 48px;
       padding: 7px 0 8px 0; }
-      @media (max-width: 992px) {
+      @media (max-width: 991px) {
         header div.nav-wrapper nav li {
           margin-right: 30px;
           font-size: 18px;
@@ -6162,7 +6162,7 @@ header {
       header div.nav-wrapper nav li.is-active {
         border-bottom: 4px solid #912E3F;
         padding: 7px 0 4px 0; }
-        @media (max-width: 992px) {
+        @media (max-width: 991px) {
           header div.nav-wrapper nav li.is-active {
             padding: 10px 0 6px 0; } }
       header div.nav-wrapper nav li i {
@@ -6203,7 +6203,7 @@ header {
               color: #912E3F; }
     header div.nav-wrapper nav.nav-right {
       float: right; }
-      @media (max-width: 992px) {
+      @media (max-width: 991px) {
         header div.nav-wrapper nav.nav-right {
           transform: scale(0.8);
           position: absolute;
@@ -6216,7 +6216,7 @@ header {
           top: 0; } }
       header div.nav-wrapper nav.nav-right li {
         margin-right: 35px; }
-        @media (max-width: 992px) {
+        @media (max-width: 991px) {
           header div.nav-wrapper nav.nav-right li {
             color: #6e6e6e;
             margin-right: 25px; } }
@@ -6243,7 +6243,7 @@ header {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     .lead {
       font-size: 18px;
       line-height: 22px; } }
@@ -6282,7 +6282,7 @@ section.dossier .dossier-inner {
     top: 50%;
     transform: translate(-50%, -50%);
     padding-right: 400px; }
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
       section.dossier .dossier-inner div.container {
         padding-right: 300px; } }
     @media (max-width: 768px) {
@@ -6302,10 +6302,10 @@ section.dossier.is-centered {
     transform: translate(-50%, 0);
     top: auto;
     bottom: 30px; }
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
       section.dossier.is-centered div.dossier-inner div.container {
         bottom: 20px; } }
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
       section.dossier.is-centered div.dossier-inner div.container {
         transform: translate(0, 0);
         bottom: 10px; } }
@@ -6406,7 +6406,7 @@ section.rubrique-actualites article.brick-inside {
 
 section.rubrique {
   padding: 45px 0 15px 0; }
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     section.rubrique {
       padding: 25px 0 15px 0; } }
   section.rubrique:nth-child(even) {
@@ -6424,12 +6424,12 @@ section.rubrique:not(.rubrique-actualites) article {
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.08);
     transform: translateY(-3px);
     transition: all 0.2s; }
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
       section.rubrique:not(.rubrique-actualites) article:hover {
         box-shadow: none;
         transform: translateY(0px);
         transition: all 0.2s; } }
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     section.rubrique:not(.rubrique-actualites) article {
       margin-bottom: 20px; } }
   section.rubrique:not(.rubrique-actualites) article div.article-excerpt {
@@ -6463,7 +6463,7 @@ section.rubrique:not(.rubrique-actualites) article.article-lg div.article-figure
 
 section.rubrique:not(.rubrique-actualites) article.article-sm {
   display: block; }
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     section.rubrique:not(.rubrique-actualites) article.article-sm {
       display: flex;
       border: 0; } }
@@ -6474,7 +6474,7 @@ section.rubrique:not(.rubrique-actualites) article.article-sm {
 section.rubrique:not(.rubrique-actualites) article.article-sm div.article-figure {
   width: 100%;
   float: none; }
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     section.rubrique:not(.rubrique-actualites) article.article-sm div.article-figure {
       width: 25%;
       float: left;
@@ -6487,7 +6487,7 @@ section.rubrique:not(.rubrique-actualites) article.article-sm div.article-figure
     @media (max-width: 768px) {
       section.rubrique:not(.rubrique-actualites) article.article-sm div.article-figure figure {
         height: 100%; } }
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
       section.rubrique:not(.rubrique-actualites) article.article-sm div.article-figure figure img {
         border: 1px solid #efefef; } }
     @media (max-width: 768px) {
@@ -6509,7 +6509,7 @@ section.rubrique:not(.rubrique-actualites) article.article-lg div.article-excerp
 section.rubrique:not(.rubrique-actualites) article.article-lg div.article-excerpt h4.article-title {
   font-size: 34px;
   line-height: 43px; }
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     section.rubrique:not(.rubrique-actualites) article.article-lg div.article-excerpt h4.article-title {
       font-size: 24px;
       line-height: 30px; } }
@@ -6518,7 +6518,7 @@ section.rubrique:not(.rubrique-actualites) article.article-sm div.article-excerp
   width: 100%;
   float: none;
   height: 165px; }
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     section.rubrique:not(.rubrique-actualites) article.article-sm div.article-excerpt {
       width: 75%;
       float: left;
@@ -6560,7 +6560,7 @@ section.rubrique-media {
     font-size: 34px;
     line-height: 43px;
     color: #cacaca; }
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
       section.rubrique-media div.rubrique-media-content div.col-lg-4 h4 {
         margin-top: 20px;
         font-size: 24px;
@@ -6569,32 +6569,32 @@ section.rubrique-media {
     text-shadow: none;
     color: #cacaca;
     display: block; }
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
       section.rubrique-media div.rubrique-media-content div.col-lg-4 p.media-lead {
         font-size: 18px;
         line-height: 22px; } }
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     section.rubrique-media div.rubrique-media-content div.col-lg-4 a {
       display: block;
       text-align: center; } }
 
 footer {
   background: #f2f2f2; }
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     footer {
       padding: 15px 0 30px 0; } }
   footer img.footer-logo {
     width: 125px;
     height: auto;
     float: left; }
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
       footer img.footer-logo {
         float: none;
         width: 95px; } }
   footer nav.footer-nav {
     margin-top: 8px;
     float: right; }
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
       footer nav.footer-nav {
         margin-top: 0;
         float: none;
@@ -6611,7 +6611,7 @@ footer {
       -moz-osx-font-smoothing: grayscale;
       margin-right: 48px;
       padding: 7px 0 8px 0; }
-      @media (max-width: 992px) {
+      @media (max-width: 991px) {
         footer nav.footer-nav li {
           margin-right: 25px;
           margin-left: 0;
