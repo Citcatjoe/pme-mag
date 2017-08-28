@@ -69,6 +69,16 @@
 			font-weight: 500;
 			font-style: normal;
 		}
+
+		@font-face {
+			font-family: 'Acta Book';
+			src: url('./assets/fonts/Acta-Book.eot');
+			src: url('./assets/fonts/Acta-Book.eot?#iefix') format('embedded-opentype'),
+				url('./assets/fonts/Acta-Book.woff') format('woff'),
+				url('./assets/fonts/Acta-Book.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+		}
 		</style>
 		<script>
 		(function( w ){
@@ -95,6 +105,7 @@
 		var font2 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 300, style: 'italic'});
 		var font3 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 500, style: 'normal'});
 		var font4 = new w.FontFaceObserver( 'Austin News Text Roman', {weight: 500, style: 'normal'});
+		var font5 = new w.FontFaceObserver( 'Acta Book', {weight: 400, style: 'normal'});
 
 		/* ... iterate for each font */
 
@@ -159,312 +170,30 @@
 			</div>
 		</header>
 
-		<section class="dossier is-not-centered">
-			<a class="dossier-inner" href="#">
-				<!-- <img src="img/dossier.png" alt=""> -->
-				<picture>
-					<!--[if IE 9]><video style="display: none;"><![endif]-->
-					<source srcset="img/1280x500.jpg 1x" media="all and (min-width: 991px)" type="image/jpeg">
-					<source srcset="img/992x400.jpg 1x" media="all and (min-width: 767px)" type="image/jpeg">
-					<source srcset="img/576x288.jpg 1x" media="(min-width: 0px)" type="image/jpeg">
-					<!--[if IE 9]></video><![endif]-->
-					<img class="picture" src="img/dossier.png" alt="">
-				</picture>
-				<div class="dossier-overlay"></div>
-				<div class="container">
-						<span class="badge">DOSSIER</span>
-						<h1>Entrepreneur à temps partiel</h1>
-						<p class="lead">Créer sa société sans risquer la banqueroute, c’est possible: en consacrant une partie de son temps à son projet, tout en continuant à travailler comme salarié.</p>
-				</div>
-			</a>
-			<div class="container">
-				<a class="lead lead-mobile" href="#">Créer sa société sans risquer la banqueroute, c’est possible: en consacrant une partie de son temps à son projet, tout en continuant à travailler comme salarié.</a>
+		<div class="container">
+			<div class="row">
+				<aside class="col-md-4">
+					<h2>Aside</h2>
+				</aside>
+				<article class="col-md-8 article-content">
+					<h1 class="article-title">
+						Les PME doivent apprendre à manier les réseaux sociaux
+					</h1>
+					<p class="lead">
+						Ce manager à la fois goujat et tyran n’appartient pas au passé et sévit toujours dans les bureaux. Une espèce à manier avec fermeté selon boris mabillard.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia a ab aperiam molestias necessitatibus placeat saepe esse magnam. Suscipit placeat tempore, quibusdam! Eveniet eius autem ex reprehenderit laboriosam modi tempore. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+					</p>
+					<p>
+						Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. 
+					</p>
+					<p>
+						Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut.
+					</p>
+				</article>
 			</div>
-		</section>
-
-		<section class="rubrique rubrique-actualites">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h3>Actualités</h3>
-					</div>
-				</div>
-				<div class="wall">
-						<article class="brick-lg"> 
-							<a>
-								<figure class="article-figure">
-									<img src="img/thumb1.jpg" alt="">
-									<figcaption>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam enim, facere quidem iste. Ex odit, et hic eius voluptas provident suscipit dolore at, iure, natus aliquam, sequi execcepturi possimus molestias!
-									</figcaption>
-								</figure>
-							</a>
-							<a class="article-excerpt">
-								<h5 class="article-title">
-									La très genevoise Caran d’Ache bientôt vaudoise?
-								</h5>
-								<span class="article-lead">
-									La société mythique hésite encore entre trois emplacements, dont l’un en terres vaudoises. Un dessein qui pourrait déplaire aux autorités du canton.
-								</span>
-								<span class="article-signature">EB</span>
-								<span class="article-readmore">Lire</span>
-							</a>
-						</article>
-						<article class="brick-lg"> 
-							<a>
-								<figure class="article-figure">
-									<img src="img/thumb1.jpg" alt="">
-									<figcaption>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam enim, facere quidem iste. Ex odit, et hic eius voluptas provident suscipit dolore at, iure, natus aliquam, sequi execcepturi possimus molestias!
-									</figcaption>
-								</figure>
-							</a>
-							<a class="article-excerpt">
-								<h5>
-									«Bon pour la tête», busi-ness plan d’un journal associatif
-								</h5>
-								<span class="article-lead">
-									Un média se lance sur les cendres de «L’Hebdo». 150’000 francs ont été récoltés, mais il faudrait des millions. Comment vont-ils faire ? Avec de la bonne volonté.
-								</span>
-								<span class="article-signature">EB</span>
-								<span class="article-readmore">Lire</span>
-							</a>
-						</article>
-						<article class="brick-md">
-							<a class="article-excerpt">
-								<span class="brick-md-title">L'œil en coin</span>
-								<h5>Cyberattaque: le «cloud» va-t-il nous tomber sur la tête?</h5>
-								<span class="article-signature">EB</span>
-								<span class="article-readmore">Lire</span>
-							</a>
-						</article>
-						<article class="is-complete">
-							<a class="article-excerpt">
-								<h5>
-									L'indépendance plutôt que l'argent
-								</h5>
-								<span class="article-lead">
-									Les patrons suisses sont attirés par l'idée d'être leur propre chef plutôt que par l'argent. Cette motivation les place à l'inverse de leurs homologues dans le monde, révèle une étude d'HSBC Private Bank. Seuls 29% des 115 entrepreneurs suisses interrogés affirment s'être lancés pour améliorer leur situation financière personnelle contre 43% en moyenne. Les Suisses sont par contre 45% à évoquer leur volonté d'indépendance devant la formation personnelle à 30%.
-								</span>
-								<span class="article-signature">EB</span>
-								<span class="article-readmore">Lire</span>
-							</a>
-						</article>
-						<article class="brick-sm brick-inside is-complete">
-							<a class="article-excerpt">
-								<span class="badge">INSIDE</span>
-								<h5>
-									Thomson Reuters vendrait son centre
-								</h5>
-								<span class="article-lead">
-									Selon une source proche
-									du dossier, le groupe
-									Thomson Reuters serait en
-									discussion depuis quelques
-									semaines pour vendre une
-									partie de son emblématique
-									bâtiment à la Pallanterie, à
-									Genève. Plus de 1000 m2
-									seraient concernés. Le géant
-									avait dejà dû se résoudre à
-									annoncer des licenciements
-									sur ce site en début d’année.
-									Près de 50 postes vont
-									passer à la trappe.
-								</span>
-								<span class="article-signature">EB</span>
-								<span class="article-readmore">
-									Lire
-								</span>
-							</a>
-						</article>
-						<article class="brick-sm brick-inside is-complete">
-							<a class="article-excerpt">
-								<span class="badge">INSIDE</span>
-								<h5>
-									Le Biopôle accueille un groupe canadien
-								</h5>
-								<span class="article-lead">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus sunt eaque, quam officia ipsam minus eveniet sequi, voluptatem facilis assumenda optio aspernatur. Qui dolorem, commodi, natus aspernatur dolorum ipsum vitae.
-								</span>
-								<span class="article-signature">EB</span>
-								<span class="article-readmore">Lire</span>
-							</a>
-						</article>
-						<article>
-							<a class="article-excerpt">
-								<h5>
-									Vignerons romands: le gel de trop et des aides qui ne viennent pas à temps
-								</h5>
-								<span class="article-lead">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore obcaecati fugit quisquam quia quis sunt nemo eum neque itaque a ipsam vel repudiandae eos recusandae nobis natus nihil, autem voluptatibus.
-								</span>
-								<span class="article-signature">EB</span>
-								<span class="article-readmore">Lire</span>
-							</a>
-						</article>
-						<article>
-							<a class="article-excerpt">
-								<h5>
-									Snapchat investit à Yverdon-les-Bains
-								</h5>
-								<span class="article-lead">
-									Ca y est, c'est fait. Il lui demande si il l'aimait encore. Il la gifla.
-								</span>
-								<span class="article-signature">EB</span>
-								<span class="article-readmore">Lire</span>
-							</a>
-						</article>
-
-
-
-
-						
-				</div>
-			</div>
-		</section>
-
-		<section class="rubrique rubrique-entreprises">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h3>Entreprises</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<article class="article-lg">
-							<div class="article-figure">
-								<figure>
-									<img src="img/thumb1.jpg" alt="">
-								</figure>
-								<figcaption>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam enim, facere quidem iste. Ex odit, et hic eius voluptas provident suscipit dolore at, iure, natus aliquam, sequi excepturi possimus molestias!
-								</figcaption>
-							</div>
-							<div class="article-excerpt">
-								<span class="article-kicker">Who's who</span>
-								<h4 class="article-title">Jeunes patrons, ils sont à la relève des PME de La Côte</h4>
-								<span class="article-signature">Céline Bilardo, Joëlle Cachin</span>
-							</div>
-						</article>
-					</div>
-
-					<!-- <div class="spacer"></div> -->
-					
-					<div class="col-lg-4">
-						<article class="article-sm">
-							<div class="article-figure">
-								<figure>
-									<img src="img/thumb1.jpg" alt="">
-								</figure>
-								<figcaption>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam enim, facere quidem iste. Ex odit, et hic eius voluptas provident suscipit dolore at, iure, natus aliquam, sequi excepturi possimus molestias!
-								</figcaption>
-							</div>
-							<div class="article-excerpt">
-								<span class="article-kicker">Who's who</span>
-								<h4 class="article-title">Jeunes patrons, ils sont à la relève des PME de La Côte</h4>
-								<span class="article-signature">Céline Bilardo, Joëlle Cachin</span>
-							</div>
-						</article>
-					</div>
-					<div class="col-lg-4">
-						<article class="article-sm">
-							<div class="article-figure">
-								<figure>
-									<img src="img/thumb1.jpg" alt="">
-								</figure>
-								<figcaption>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam enim, facere quidem iste. Ex odit, et hic eius voluptas provident suscipit dolore at, iure, natus aliquam, sequi excepturi possimus molestias!
-								</figcaption>
-							</div>
-							<div class="article-excerpt">
-								<span class="article-kicker">Who's who</span>
-								<h4 class="article-title">Jeunes patrons, ils sont à la relève des PME de La Côte</h4>
-								<span class="article-signature">Céline Bilardo, Joëlle Cachin</span>
-							</div>
-						</article>
-					</div>
-					<div class="col-lg-4">
-						<article class="article-sm">
-							<div class="article-figure">
-								<figure>
-									<img src="img/thumb1.jpg" alt="">
-								</figure>
-								<figcaption>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam enim, facere quidem iste. Ex odit, et hic eius voluptas provident suscipit dolore at, iure, natus aliquam, sequi excepturi possimus molestias!
-								</figcaption>
-							</div>
-							<div class="article-excerpt">
-								<span class="article-kicker">Who's who</span>
-								<h4 class="article-title">Jeunes patrons, ils sont à la relève des PME de La Côte</h4>
-								<span class="article-signature">Céline Bilardo, Joëlle Cachin</span>
-							</div>
-						</article>
-					</div>
-				</div>
-				<div class="row text-centered">
-					<div class="col-md-12">
-						<a href="#">
-							<button class="btn btn-default">Plus</button>
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="rubrique rubrique-media">
-			<div class="container">
-				<!-- <div class="row">
-					<h3>Le rendez-vous vidéo</h3>
-				</div> -->
-				<div class="row rubrique-media-content">
-					<div class="col-lg-8">
-						<div class="video-wrapper embed-responsive embed-responsive-16by9">
-							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/V-cKhTWReqg" frameborder="0" allowfullscreen></iframe>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<h4>La petite banque qui cartonne</h4>
-						<p class="lead media-lead">Entretien avec Cyril Favrel, membre de la direction de la Caisse d'Epargne de Nyon.</p>
-						<a href="#">
-							<button class="btn btn-default">Plus de vidéos</button>
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="rubrique rubrique-management">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h3>Management</h3>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="rubrique rubrique-finances">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h3>Finances</h3>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="rubrique rubrique-loisirs">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h3>Loisirs</h3>
-					</div>
-				</div>
-			</div>
-		</section>
+		</div>
 
 		<footer>
 			<div class="container">

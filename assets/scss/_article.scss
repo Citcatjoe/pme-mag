@@ -1,0 +1,30 @@
+aside
+{
+	background: red;
+
+	
+}
+
+.article-content
+{
+	//background: yellow;
+
+	.article-title
+	{
+		max-width: 100%;
+		text-shadow: none;
+		font-size: 48px !important;
+		color: #000 !important;
+		letter-spacing: 0;
+		line-height: 49px;
+		margin-top: 0;
+		margin-bottom: 15px;
+	}
+
+	.lead
+	{
+		color: #000;
+		text-shadow: none;
+		margin-bottom: 32px;
+	}
+}

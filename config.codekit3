@@ -15,6 +15,24 @@
 		"oAP": "\/article.html.twig",
 		"oF": 0
 		},
+	"\/assets\/fonts\/Acta-Book.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Acta-Book.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Acta-Book.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Acta-Book.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Acta-Book.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Acta-Book.woff",
+		"oF": 0
+		},
 	"\/assets\/fonts\/AustinNewsText-Roman.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -4622,6 +4640,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/_actualites.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/_article.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/css\/_article.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

@@ -6058,6 +6058,13 @@ h5 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+p {
+  font-family: 'Acta Book';
+  font-size: 17px;
+  line-height: 26px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
 a {
   color: inherit; }
   a:hover {
@@ -6612,6 +6619,8 @@ footer {
       -moz-osx-font-smoothing: grayscale;
       margin-right: 48px;
       padding: 7px 0 8px 0; }
+      footer nav.footer-nav li:hover {
+        text-decoration: underline; }
       @media (max-width: 991px) {
         footer nav.footer-nav li {
           margin-right: 25px;
@@ -6620,5 +6629,23 @@ footer {
           overflow: auto;
           padding: 0;
           font-size: 18px; } }
+
+aside {
+  background: red; }
+
+.article-content .article-title {
+  max-width: 100%;
+  text-shadow: none;
+  font-size: 48px !important;
+  color: #000 !important;
+  letter-spacing: 0;
+  line-height: 49px;
+  margin-top: 0;
+  margin-bottom: 15px; }
+
+.article-content .lead {
+  color: #000;
+  text-shadow: none;
+  margin-bottom: 32px; }
 
 /*# sourceMappingURL=main.css.map */
