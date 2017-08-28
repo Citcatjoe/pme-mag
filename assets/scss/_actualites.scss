@@ -1,8 +1,6 @@
 section.rubrique-actualites article
 {
 	border: 1px solid $gray-line;
-	//padding: 20px;
-	//position: relative;
 	line-height: 20px;
 	transition: all 0.2s;
 
@@ -22,7 +20,6 @@ section.rubrique-actualites article
 	.article-figure
 	{
 		margin: 0;
-
 		figcaption { display: none; }
 	}
 
@@ -64,54 +61,48 @@ section.rubrique-actualites article
 			-moz-osx-font-smoothing: grayscale;
 			margin-top: 10px;
 		}
-		
 	}
 
 	&.is-complete
 	{
+		&:hover
+		{
+			cursor: default;
+			transform: translateY(0);
+			transition: all 0.2s;
+		    box-shadow: none;
+
+		    h5
+			{
+				text-decoration: none;
+			}
+		}
+
 		.article-excerpt span.article-lead { display: block; }
 		.article-excerpt span.article-signature { display: block; }
 		.article-excerpt span.article-readmore { display: none; }
 	}
-
-	
 }
 
-section.rubrique-actualites article.brick-lg
-{
-	//min-height: 430px;
-
-	@include breakpoint(sm) {
-		min-height: auto;
-	}
-
-	// h5
-	// {
-	// 	font-size: 21px ;
-	// 	line-height: 25px;
-	// 	font-weight: 500;
-	// 	color: $title-color;
-	// 	//margin-bottom: 30px;
-	// }
-
-	div.article-excerpt
-	{
-		span.article-lead
-		{
-			//margin-bottom: 30px;
-			//display: block;
-			@include breakpoint(sm) {
-				margin-bottom: 0;
-			}
-		}
-	}
-}
+// section.rubrique-actualites article.brick-lg
+// {
+// 	div.article-excerpt
+// 	{
+// 		span.article-lead
+// 		{
+// 			@include breakpoint(sm) {
+// 				margin-bottom: 0;
+// 			}
+// 		}
+// 	}
+// }
 
 section.rubrique-actualites article.brick-md
 {
 	border-top: 4px solid $pme-color;
 	text-align: center;
 
+	//Titre spécial "Oeil en coin"
 	.brick-md-title
 	{
 		display: inline-block;
@@ -128,17 +119,17 @@ section.rubrique-actualites article.brick-md
     	-moz-osx-font-smoothing: grayscale;
 	}
 
+	//Le titre est un peu plus gros que les autres
 	h5
 	{
 		font-size: 21px ;
 		line-height: 25px;
 		font-weight: 500;
 		color: $title-color;
-		//margin-bottom: 30px;
 
-		@include breakpoint(sm) {
-			margin-bottom: 0;
-		}
+		// @include breakpoint(sm) {
+		// 	margin-bottom: 0;
+		// }
 	}
 
 	span.article-signature //RESTE DANS  TYPO

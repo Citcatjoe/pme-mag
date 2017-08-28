@@ -18,7 +18,7 @@
 			font-style: normal;
 		}
 
-		@font-face {
+		/*@font-face {
 			font-family: 'Duplicate Slab';
 			src: url('./assets/fonts/DuplicateSlab-RegularItalic.eot');
 			src: url('./assets/fonts/DuplicateSlab-RegularItalic.eot?#iefix') format('embedded-opentype'),
@@ -26,7 +26,19 @@
 				url('./assets/fonts/DuplicateSlab-RegularItalic.ttf') format('truetype');
 			font-weight: 400;
 			font-style: italic;
+		}*/
+
+		@font-face {
+			font-family: 'Duplicate Slab';
+			src: url('./assets/fonts/DuplicateSlab-LightItalic.eot');
+			src: url('./assets/fonts/DuplicateSlab-LightItalic.eot?#iefix') format('embedded-opentype'),
+				url('./assets/fonts/DuplicateSlab-LightItalic.woff') format('woff'),
+				url('./assets/fonts/DuplicateSlab-LightItalic.ttf') format('truetype');
+			font-weight: 300;
+			font-style: italic;
 		}
+
+
 
 		@font-face {
 			font-family: 'Duplicate Slab';
@@ -79,7 +91,8 @@
 
 
 		var font1 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 300, style: 'normal'});
-		var font2 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 400, style: 'italic'});
+		// var font2 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 400, style: 'italic'});
+		var font2 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 300, style: 'italic'});
 		var font3 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 500, style: 'normal'});
 		var font4 = new w.FontFaceObserver( 'Austin News Text Roman', {weight: 500, style: 'normal'});
 
@@ -121,11 +134,11 @@
 							<nav class="nav-left nav-mobile">
 								<li class="nav-mobile-dropdown-toggler">Rubrique&nbsp;&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></li>
 								<ul>
-									<li class="is-active">Actualités</li> 
-									<li>Entreprises</li>
-									<li>Management</li>
-									<li>Finances</li>
-									<li>Loisirs</li>
+									<li class="is-active"><a href="">Actualités</a></li> 
+									<li><a href="">Entreprises</a></li>
+									<li><a href="">Management</a></li>
+									<li><a href="">Finances</a></li>
+									<li><a href="">Loisirs</a></li>
 								</ul>
 							</nav>
 							<nav class="nav-left nav-desktop">
@@ -147,7 +160,7 @@
 		</header>
 
 		<section class="dossier is-not-centered">
-			<div class="dossier-inner">
+			<a class="dossier-inner" href="#">
 				<!-- <img src="img/dossier.png" alt=""> -->
 				<picture>
 					<!--[if IE 9]><video style="display: none;"><![endif]-->
@@ -163,9 +176,9 @@
 						<h1>Entrepreneur à temps partiel</h1>
 						<p class="lead">Créer sa société sans risquer la banqueroute, c’est possible: en consacrant une partie de son temps à son projet, tout en continuant à travailler comme salarié.</p>
 				</div>
-			</div>
+			</a>
 			<div class="container">
-				<p class="lead lead-mobile">Créer sa société sans risquer la banqueroute, c’est possible: en consacrant une partie de son temps à son projet, tout en continuant à travailler comme salarié.</p>
+				<a class="lead lead-mobile" href="#">Créer sa société sans risquer la banqueroute, c’est possible: en consacrant une partie de son temps à son projet, tout en continuant à travailler comme salarié.</a>
 			</div>
 		</section>
 

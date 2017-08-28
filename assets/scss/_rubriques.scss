@@ -3,6 +3,10 @@ section.rubrique
 {
 	padding: 45px 0 15px 0;
 
+	@include breakpoint(md) {
+		padding: 25px 0 15px 0;
+	}
+
 	&:nth-child(even)
 	{
 		background: $odd-rubrique-bg
@@ -245,13 +249,15 @@ section.rubrique-media // FAUDRAIT CHECKER UN COUP
 				line-height: 43px;
 				color: $title-color-ondark;
 
-				@include breakpoint(lg) {
-					font-size: 24px;
-					line-height: 30px;
-				}
+				// @include breakpoint(lg) {
+				// 	font-size: 24px;
+				// 	line-height: 30px;
+				// }
 
 				@include breakpoint(md) {
 					margin-top: 20px;
+					font-size: 24px;
+					line-height: 30px;
 				}
 			}
 
@@ -262,9 +268,17 @@ section.rubrique-media // FAUDRAIT CHECKER UN COUP
 				// font-style: normal;
 				display: block;
 
-				@include breakpoint(lg) {
+				@include breakpoint(md) {
 					font-size: 18px;
 	    			line-height: 22px;
+				}
+			}
+
+			a 
+			{
+				@include breakpoint(md) {
+					display: block;
+					text-align: center;
 				}
 			}
 		}

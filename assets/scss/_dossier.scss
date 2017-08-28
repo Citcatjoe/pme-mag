@@ -1,6 +1,7 @@
 .lead
 {
 	font-family: 'Duplicate Slab'; 
+	font-weight: 300;
 	font-size: 21px;
 	font-style: italic;
 	color: #FFFFFF;
@@ -36,8 +37,9 @@
 
 section.dossier
 {
-	div.dossier-inner
+	.dossier-inner
 	{
+		display: block;
 		position: relative;
 		max-width: 1280px;
 		margin: auto;
