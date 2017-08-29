@@ -6062,8 +6062,10 @@ p {
   font-family: 'Acta Book';
   font-size: 17px;
   line-height: 26px;
+  color: #414141;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 20px; }
 
 a {
   color: inherit; }
@@ -6140,6 +6142,9 @@ header {
   @media (max-width: 991px) {
     header {
       margin-bottom: 40px; } }
+  @media (max-width: 768px) {
+    header {
+      margin-bottom: 0; } }
   header img.header-logo {
     width: 125px;
     height: auto;
@@ -6252,11 +6257,10 @@ header {
   -moz-osx-font-smoothing: grayscale; }
   @media (max-width: 991px) {
     .lead {
-      font-size: 18px;
+      font-size: 19px;
       line-height: 22px; } }
   @media (max-width: 768px) {
     .lead {
-      font-size: 16px;
       display: none; } }
   .lead.lead-mobile {
     display: none;
@@ -6630,22 +6634,113 @@ footer {
           padding: 0;
           font-size: 18px; } }
 
-aside {
-  background: red; }
+.article-picture figure {
+  margin: 0; }
 
-.article-content .article-title {
-  max-width: 100%;
-  text-shadow: none;
-  font-size: 48px !important;
-  color: #000 !important;
-  letter-spacing: 0;
-  line-height: 49px;
-  margin-top: 0;
-  margin-bottom: 15px; }
+.article-picture.article-picture-landscape {
+  margin-bottom: 40px; }
+  @media (max-width: 768px) {
+    .article-picture.article-picture-landscape {
+      margin-bottom: 10px;
+      margin-left: -15px;
+      margin-right: -15px; } }
 
-.article-content .lead {
-  color: #000;
-  text-shadow: none;
-  margin-bottom: 32px; }
+.article-picture.article-picture-portrait {
+  margin-bottom: 10px; }
+  @media (max-width: 768px) {
+    .article-picture.article-picture-portrait {
+      margin-left: -15px;
+      margin-right: -15px; } }
+
+.article-picture-caption {
+  font-family: 'Duplicate Slab';
+  color: #949494;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 300; }
+  .article-picture-caption b {
+    color: #7b7b7b; }
+  .article-picture-caption hr {
+    /* Line 2: */
+    border-top: 3px solid #912E3F;
+    width: 75px;
+    margin-left: 0;
+    margin-bottom: 30px; }
+
+.article-infos {
+  margin-bottom: 40px; }
+  .article-infos .article-infos-source {
+    font-family: 'Duplicate Slab';
+    /* PME magazine de juil: */
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 20px;
+    color: #949494;
+    font-weight: 300;
+    margin-bottom: 15px;
+    display: block; }
+    .article-infos .article-infos-source b {
+      color: #7b7b7b; }
+  .article-infos .btn {
+    margin-bottom: 30px; }
+    @media (max-width: 768px) {
+      .article-infos .btn {
+        margin-bottom: 20px; } }
+  .article-infos .sharebox {
+    width: 100%; }
+    .article-infos .sharebox .sharebox-title {
+      width: 100%;
+      display: block;
+      font-family: 'Duplicate Slab';
+      color: #000;
+      font-size: 17px;
+      line-height: 20px;
+      margin-bottom: 13px; }
+    .article-infos .sharebox i {
+      color: #912E3F;
+      font-size: 26px;
+      margin-right: 10px;
+      transition: all 0.2s ease-in-out; }
+      .article-infos .sharebox i:hover {
+        color: #b0384c;
+        transition: all 0.2s ease-in-out; }
+
+@media (max-width: 768px) {
+  .article-infos-desktop {
+    display: none; } }
+
+.article-infos-mobile {
+  display: none;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  padding: 10px 0; }
+  @media (max-width: 768px) {
+    .article-infos-mobile {
+      display: block;
+      margin-bottom: 20px; } }
+
+.article-content {
+  padding-bottom: 50px; }
+  .article-content .article-title {
+    max-width: 100%;
+    text-shadow: none;
+    font-size: 48px !important;
+    color: #000 !important;
+    letter-spacing: 0;
+    line-height: 49px;
+    margin-top: 0;
+    margin-bottom: 15px; }
+    @media (max-width: 991px) {
+      .article-content .article-title {
+        font-size: 38px !important;
+        line-height: 42px; } }
+  .article-content .lead {
+    color: #000;
+    text-shadow: none;
+    margin-bottom: 32px;
+    display: block; }
+    @media (max-width: 768px) {
+      .article-content .lead {
+        margin-bottom: 20px; } }
 
 /*# sourceMappingURL=main.css.map */

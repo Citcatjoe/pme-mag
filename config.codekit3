@@ -4902,6 +4902,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/article-landscape.png": {
+		"ft": 32768,
+		"iS": 26559,
+		"oA": 0,
+		"oAP": "\/img\/article-landscape.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/article-portrait.png": {
+		"ft": 32768,
+		"iS": 317260,
+		"oA": 0,
+		"oAP": "\/img\/article-portrait.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/dossier.png": {
 		"ft": 32768,
 		"iS": 1547210,

@@ -18,7 +18,7 @@
 			font-style: normal;
 		}
 
-		/*@font-face {
+		@font-face {
 			font-family: 'Duplicate Slab';
 			src: url('./assets/fonts/DuplicateSlab-RegularItalic.eot');
 			src: url('./assets/fonts/DuplicateSlab-RegularItalic.eot?#iefix') format('embedded-opentype'),
@@ -26,9 +26,9 @@
 				url('./assets/fonts/DuplicateSlab-RegularItalic.ttf') format('truetype');
 			font-weight: 400;
 			font-style: italic;
-		}*/
+		}
 
-		@font-face {
+		/*@font-face {
 			font-family: 'Duplicate Slab';
 			src: url('./assets/fonts/DuplicateSlab-LightItalic.eot');
 			src: url('./assets/fonts/DuplicateSlab-LightItalic.eot?#iefix') format('embedded-opentype'),
@@ -36,7 +36,7 @@
 				url('./assets/fonts/DuplicateSlab-LightItalic.ttf') format('truetype');
 			font-weight: 300;
 			font-style: italic;
-		}
+		}*/
 
 
 
@@ -101,8 +101,8 @@
 
 
 		var font1 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 300, style: 'normal'});
-		// var font2 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 400, style: 'italic'});
-		var font2 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 300, style: 'italic'});
+		var font2 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 400, style: 'italic'});
+		// var font2 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 300, style: 'italic'});
 		var font3 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 500, style: 'normal'});
 		var font4 = new w.FontFaceObserver( 'Austin News Text Roman', {weight: 500, style: 'normal'});
 		var font5 = new w.FontFaceObserver( 'Acta Book', {weight: 400, style: 'normal'});
@@ -171,9 +171,53 @@
 		</header>
 
 		<div class="container">
+
+			<div class=" article-picture article-picture-landscape">
+				<figure itemprop="associatedMedia image" itemscope="" itemtype="http://schema.org/ImageObject" class="picture picture-cover ad-skyscraper-pusher">
+					<picture>
+						<source srcset="img/article-landscape.png 1x" media="all and (min-width: 991px)" type="image/jpeg">
+						<source srcset="img/article-landscape.png 1x" media="all and (min-width: 767px)" type="image/jpeg">
+						<source srcset="img/article-landscape.png 1x" media="(min-width: 0px)" type="image/jpeg">
+						<img class="picture" src="img/article-landscape.png" alt="">
+					</picture>
+				</figure>
+			</div>
+
 			<div class="row">
 				<aside class="col-md-4">
-					<h2>Aside</h2>
+
+					<!-- <div class=" article-picture article-picture-portrait">
+						<figure itemprop="associatedMedia image" itemscope="" itemtype="http://schema.org/ImageObject" class="picture picture-cover ad-skyscraper-pusher">
+							<picture>
+								<source srcset="img/article-portrait.png 1x" media="all and (min-width: 991px)" type="image/jpeg">
+								<source srcset="img/article-portrait.png 1x" media="all and (min-width: 767px)" type="image/jpeg">
+								<source srcset="img/article-portrait.png 1x" media="(min-width: 0px)" type="image/jpeg">
+								<img class="picture" src="img/article-portrait.png" alt="">
+							</picture>
+						</figure>
+					</div> -->
+
+					<div class="article-picture-caption">
+						<b>Photo: Leslie Nieslsen dans «Y a-t-il un flic pour sauver PME magazine?»</b> – C. Gailloud, DR
+						<hr>
+					</div>
+					<div class="article-infos article-infos-desktop">
+						<span class="article-infos-source">
+							PME magazine de juillet 2017<br>
+							Par <b>Sven Jorganssen</b>, 13563 signes
+						</span>
+						<a href="#">
+							<button class="btn btn-default">Ecrire à Sven</button>
+						</a>
+						<div class="sharebox">
+							<span class="sharebox-title">
+								Partager cet article
+							</span>
+							<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						</div>
+					</div>
 				</aside>
 				<article class="col-md-8 article-content">
 					<h1 class="article-title">
@@ -182,6 +226,23 @@
 					<p class="lead">
 						Ce manager à la fois goujat et tyran n’appartient pas au passé et sévit toujours dans les bureaux. Une espèce à manier avec fermeté selon boris mabillard.
 					</p>
+					<div class="article-infos article-infos-mobile">
+						<span class="article-infos-source">
+							PME magazine de juillet 2017<br>
+							Par <b>Sven Jorganssen</b>, 13563 signes
+						</span>
+						<a href="#">
+							<button class="btn btn-default">Ecrire à Sven</button>
+						</a>
+						<div class="sharebox">
+							<span class="sharebox-title">
+								Partager cet article
+							</span>
+							<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						</div>
+					</div>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia a ab aperiam molestias necessitatibus placeat saepe esse magnam. Suscipit placeat tempore, quibusdam! Eveniet eius autem ex reprehenderit laboriosam modi tempore. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
 					</p>

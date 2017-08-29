@@ -18,7 +18,7 @@
 			font-style: normal;
 		}
 
-		/*@font-face {
+		@font-face {
 			font-family: 'Duplicate Slab';
 			src: url('./assets/fonts/DuplicateSlab-RegularItalic.eot');
 			src: url('./assets/fonts/DuplicateSlab-RegularItalic.eot?#iefix') format('embedded-opentype'),
@@ -26,9 +26,9 @@
 				url('./assets/fonts/DuplicateSlab-RegularItalic.ttf') format('truetype');
 			font-weight: 400;
 			font-style: italic;
-		}*/
+		}
 
-		@font-face {
+		/*@font-face {
 			font-family: 'Duplicate Slab';
 			src: url('./assets/fonts/DuplicateSlab-LightItalic.eot');
 			src: url('./assets/fonts/DuplicateSlab-LightItalic.eot?#iefix') format('embedded-opentype'),
@@ -36,7 +36,7 @@
 				url('./assets/fonts/DuplicateSlab-LightItalic.ttf') format('truetype');
 			font-weight: 300;
 			font-style: italic;
-		}
+		}*/
 
 
 
@@ -69,6 +69,16 @@
 			font-weight: 500;
 			font-style: normal;
 		}
+
+		@font-face {
+			font-family: 'Acta Book';
+			src: url('./assets/fonts/Acta-Book.eot');
+			src: url('./assets/fonts/Acta-Book.eot?#iefix') format('embedded-opentype'),
+				url('./assets/fonts/Acta-Book.woff') format('woff'),
+				url('./assets/fonts/Acta-Book.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+		}
 		</style>
 		<script>
 		(function( w ){
@@ -91,10 +101,11 @@
 
 
 		var font1 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 300, style: 'normal'});
-		// var font2 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 400, style: 'italic'});
-		var font2 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 300, style: 'italic'});
+		var font2 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 400, style: 'italic'});
+		// var font2 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 300, style: 'italic'});
 		var font3 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 500, style: 'normal'});
 		var font4 = new w.FontFaceObserver( 'Austin News Text Roman', {weight: 500, style: 'normal'});
+		var font5 = new w.FontFaceObserver( 'Acta Book', {weight: 400, style: 'normal'});
 
 		/* ... iterate for each font */
 
