@@ -1,0 +1,294 @@
+
+
+<!DOCTYPE HTML>
+
+<html{% if app.3 %} class="fonts-loaded"{% endif %}>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style>
+		@font-face {
+			font-family: 'Duplicate Slab';
+			src: url('./assets/fonts/DuplicateSlab-Light.eot');
+			src: url('./assets/fonts/DuplicateSlab-Light.eot?#iefix') format('embedded-opentype'),
+				url('./assets/fonts/DuplicateSlab-Light.woff') format('woff'),
+				url('./assets/fonts/DuplicateSlab-Light.ttf') format('truetype');
+			font-weight: 300;
+			font-style: normal;
+		}
+
+		@font-face {
+			font-family: 'Duplicate Slab';
+			src: url('./assets/fonts/DuplicateSlab-RegularItalic.eot');
+			src: url('./assets/fonts/DuplicateSlab-RegularItalic.eot?#iefix') format('embedded-opentype'),
+				url('./assets/fonts/DuplicateSlab-RegularItalic.woff') format('woff'),
+				url('./assets/fonts/DuplicateSlab-RegularItalic.ttf') format('truetype');
+			font-weight: 400;
+			font-style: italic;
+		}
+
+		/*@font-face {
+			font-family: 'Duplicate Slab';
+			src: url('./assets/fonts/DuplicateSlab-LightItalic.eot');
+			src: url('./assets/fonts/DuplicateSlab-LightItalic.eot?#iefix') format('embedded-opentype'),
+				url('./assets/fonts/DuplicateSlab-LightItalic.woff') format('woff'),
+				url('./assets/fonts/DuplicateSlab-LightItalic.ttf') format('truetype');
+			font-weight: 300;
+			font-style: italic;
+		}*/
+
+
+
+		@font-face {
+			font-family: 'Duplicate Slab';
+			src: url('./assets/fonts/DuplicateSlab-Medium.eot');
+			src: url('./assets/fonts/DuplicateSlab-Medium.eot?#iefix') format('embedded-opentype'),
+				url('./assets/fonts/DuplicateSlab-Medium.woff') format('woff'),
+				url('./assets/fonts/DuplicateSlab-Medium.ttf') format('truetype');
+			font-weight: 500;
+			font-style: normal;
+		}
+
+		@font-face {
+			font-family: 'Duplicate Slab';
+			src: url('./assets/fonts/DuplicateSlab-Black.eot');
+			src: url('./assets/fonts/DuplicateSlab-Black.eot?#iefix') format('embedded-opentype'),
+				url('./assets/fonts/DuplicateSlab-Black.woff') format('woff'),
+				url('./assets/fonts/DuplicateSlab-Black.ttf') format('truetype');
+			font-weight: 900;
+			font-style: normal;
+		}
+
+		@font-face {
+			font-family: 'Austin News Text Roman';
+			src: url('./assets/fonts/AustinNewsText-Roman.eot');
+			src: url('./assets/fonts/AustinNewsText-Roman.eot?#iefix') format('embedded-opentype'),
+				url('./assets/fonts/AustinNewsText-Roman.woff') format('woff'),
+				url('./assets/fonts/AustinNewsText-Roman.ttf') format('truetype');
+			font-weight: 500;
+			font-style: normal;
+		}
+
+		@font-face {
+			font-family: 'Acta Book';
+			src: url('./assets/fonts/Acta-Book.eot');
+			src: url('./assets/fonts/Acta-Book.eot?#iefix') format('embedded-opentype'),
+				url('./assets/fonts/Acta-Book.woff') format('woff'),
+				url('./assets/fonts/Acta-Book.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+		}
+		</style>
+		<script>
+		(function( w ){
+		function hasClass(element, cls){return (' '+element.className+' ').indexOf(' '+cls +' ') > -1;}var html=document.documentElement;
+		var fontsLoaded=sessionStorage.fonts || hasClass(html,'fonts-loaded');
+		if(fontsLoaded){html.className += ' fonts-loaded'; return;} // stop here if fonts are loaded
+
+		/* Font Face Observer v2.0.13 - © Bram Stein. License: BSD-3-Clause */(function(){'use strict';var f,g=[];function l(a){g.push(a);1==g.length&&f()}function m(){for(;g.length;)g[0](),g.shift()}f=function(){setTimeout(m)};function n(a){this.a=p;this.b=void 0;this.f=[];var b=this;try{a(function(a){q(b,a)},function(a){r(b,a)})}catch(c){r(b,c)}}var p=2;function t(a){return new n(function(b,c){c(a)})}function u(a){return new n(function(b){b(a)})}function q(a,b){if(a.a==p){if(b==a)throw new TypeError;var c=!1;try{var d=b&&b.then;if(null!=b&&"object"==typeof b&&"function"==typeof d){d.call(b,function(b){c||q(a,b);c=!0},function(b){c||r(a,b);c=!0});return}}catch(e){c||r(a,e);return}a.a=0;a.b=b;v(a)}}
+		function r(a,b){if(a.a==p){if(b==a)throw new TypeError;a.a=1;a.b=b;v(a)}}function v(a){l(function(){if(a.a!=p)for(;a.f.length;){var b=a.f.shift(),c=b[0],d=b[1],e=b[2],b=b[3];try{0==a.a?"function"==typeof c?e(c.call(void 0,a.b)):e(a.b):1==a.a&&("function"==typeof d?e(d.call(void 0,a.b)):b(a.b))}catch(h){b(h)}}})}n.prototype.g=function(a){return this.c(void 0,a)};n.prototype.c=function(a,b){var c=this;return new n(function(d,e){c.f.push([a,b,d,e]);v(c)})};
+		function w(a){return new n(function(b,c){function d(c){return function(d){h[c]=d;e+=1;e==a.length&&b(h)}}var e=0,h=[];0==a.length&&b(h);for(var k=0;k<a.length;k+=1)u(a[k]).c(d(k),c)})}function x(a){return new n(function(b,c){for(var d=0;d<a.length;d+=1)u(a[d]).c(b,c)})};window.Promise||(window.Promise=n,window.Promise.resolve=u,window.Promise.reject=t,window.Promise.race=x,window.Promise.all=w,window.Promise.prototype.then=n.prototype.c,window.Promise.prototype["catch"]=n.prototype.g);}());
+
+		(function(){function l(a,b){document.addEventListener?a.addEventListener("scroll",b,!1):a.attachEvent("scroll",b)}function m(a){document.body?a():document.addEventListener?document.addEventListener("DOMContentLoaded",function c(){document.removeEventListener("DOMContentLoaded",c);a()}):document.attachEvent("onreadystatechange",function k(){if("interactive"==document.readyState||"complete"==document.readyState)document.detachEvent("onreadystatechange",k),a()})};function r(a){this.a=document.createElement("div");this.a.setAttribute("aria-hidden","true");this.a.appendChild(document.createTextNode(a));this.b=document.createElement("span");this.c=document.createElement("span");this.h=document.createElement("span");this.f=document.createElement("span");this.g=-1;this.b.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;";this.c.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;";
+		this.f.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;";this.h.style.cssText="display:inline-block;width:200%;height:200%;font-size:16px;max-width:none;";this.b.appendChild(this.h);this.c.appendChild(this.f);this.a.appendChild(this.b);this.a.appendChild(this.c)}
+		function t(a,b){a.a.style.cssText="max-width:none;min-width:20px;min-height:20px;display:inline-block;overflow:hidden;position:absolute;width:auto;margin:0;padding:0;top:-999px;white-space:nowrap;font-synthesis:none;font:"+b+";"}function y(a){var b=a.a.offsetWidth,c=b+100;a.f.style.width=c+"px";a.c.scrollLeft=c;a.b.scrollLeft=a.b.scrollWidth+100;return a.g!==b?(a.g=b,!0):!1}function z(a,b){function c(){var a=k;y(a)&&a.a.parentNode&&b(a.g)}var k=a;l(a.b,c);l(a.c,c);y(a)};function A(a,b){var c=b||{};this.family=a;this.style=c.style||"normal";this.weight=c.weight||"normal";this.stretch=c.stretch||"normal"}var B=null,C=null,E=null,F=null;function G(){if(null===C)if(J()&&/Apple/.test(window.navigator.vendor)){var a=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))(?:\.([0-9]+))/.exec(window.navigator.userAgent);C=!!a&&603>parseInt(a[1],10)}else C=!1;return C}function J(){null===F&&(F=!!document.fonts);return F}
+		function K(){if(null===E){var a=document.createElement("div");try{a.style.font="condensed 100px sans-serif"}catch(b){}E=""!==a.style.font}return E}function L(a,b){return[a.style,a.weight,K()?a.stretch:"","100px",b].join(" ")}
+		A.prototype.load=function(a,b){var c=this,k=a||"BESbswy",q=0,D=b||3E3,H=(new Date).getTime();return new Promise(function(a,b){if(J()&&!G()){var M=new Promise(function(a,b){function e(){(new Date).getTime()-H>=D?b():document.fonts.load(L(c,'"'+c.family+'"'),k).then(function(c){1<=c.length?a():setTimeout(e,25)},function(){b()})}e()}),N=new Promise(function(a,c){q=setTimeout(c,D)});Promise.race([N,M]).then(function(){clearTimeout(q);a(c)},function(){b(c)})}else m(function(){function u(){var b;if(b=-1!=
+		f&&-1!=g||-1!=f&&-1!=h||-1!=g&&-1!=h)(b=f!=g&&f!=h&&g!=h)||(null===B&&(b=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent),B=!!b&&(536>parseInt(b[1],10)||536===parseInt(b[1],10)&&11>=parseInt(b[2],10))),b=B&&(f==v&&g==v&&h==v||f==w&&g==w&&h==w||f==x&&g==x&&h==x)),b=!b;b&&(d.parentNode&&d.parentNode.removeChild(d),clearTimeout(q),a(c))}function I(){if((new Date).getTime()-H>=D)d.parentNode&&d.parentNode.removeChild(d),b(c);else{var a=document.hidden;if(!0===a||void 0===a)f=e.a.offsetWidth,
+		g=n.a.offsetWidth,h=p.a.offsetWidth,u();q=setTimeout(I,50)}}var e=new r(k),n=new r(k),p=new r(k),f=-1,g=-1,h=-1,v=-1,w=-1,x=-1,d=document.createElement("div");d.dir="ltr";t(e,L(c,"sans-serif"));t(n,L(c,"serif"));t(p,L(c,"monospace"));d.appendChild(e.a);d.appendChild(n.a);d.appendChild(p.a);document.body.appendChild(d);v=e.a.offsetWidth;w=n.a.offsetWidth;x=p.a.offsetWidth;I();z(e,function(a){f=a;u()});t(e,L(c,'"'+c.family+'",sans-serif'));z(n,function(a){g=a;u()});t(n,L(c,'"'+c.family+'",serif'));
+		z(p,function(a){h=a;u()});t(p,L(c,'"'+c.family+'",monospace'))})})};"object"===typeof module?module.exports=A:(window.FontFaceObserver=A,window.FontFaceObserver.prototype.load=A.prototype.load);}());
+
+
+		var font1 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 300, style: 'normal'});
+		var font2 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 400, style: 'italic'});
+		// var font2 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 300, style: 'italic'});
+		var font3 = new w.FontFaceObserver( 'Duplicate Slab', {weight: 500, style: 'normal'});
+		var font4 = new w.FontFaceObserver( 'Austin News Text Roman', {weight: 500, style: 'normal'});
+		var font5 = new w.FontFaceObserver( 'Acta Book', {weight: 400, style: 'normal'});
+
+		/* ... iterate for each font */
+
+		// load all fonts and store a boolean in the sessionStorage and in a cookie
+		w.Promise
+		  .all([font1.load(null, 5000), font2.load(null, 5000), font3.load(null, 5000), font4.load(null, 5000),/*.. iterate for each font */])
+		  .then(function() {
+		    w.document.documentElement.className += ' fonts-loaded';
+		    sessionStorage.fonts = true;
+		    document.cookie = "pmefonts=true; path=/";
+		  });
+		}( this ));
+		</script>
+		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+	</head>
+
+	<body>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4"></div>
+					<div class="col-md-4">
+						<a href="#">
+							<img src="img/logo.svg" alt="logo PME magazine" class="header-logo">
+						</a>
+					</div>
+					<div class="col-md-4"></div>
+				</div>
+			</div>
+			<div class="nav-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<nav class="nav-left nav-mobile">
+								<li class="nav-mobile-dropdown-toggler">Rubrique&nbsp;&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></li>
+								<ul>
+									<li class="is-active"><a href="">Actualités</a></li> 
+									<li><a href="">Entreprises</a></li>
+									<li><a href="">Management</a></li>
+									<li><a href="">Finances</a></li>
+									<li><a href="">Loisirs</a></li>
+								</ul>
+							</nav>
+							<nav class="nav-left nav-desktop">
+								<li class="is-active"><a href="#">Actualités</a></li> 
+								<li><a href="#">Entreprises</a></li>
+								<li><a href="#">Management</a></li>
+								<li><a href="#">Finances</a></li>
+								<li><a href="#">Loisirs</a></li>
+							</nav>
+							<nav class="nav-right">
+								<li>Services</li>
+								<li><a href="#">Epaper</a></li>
+								<li><a href="#"><button class="btn btn-default">Abonnement</button></a></li>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="container">
+
+			<div class=" article-picture article-picture-landscape">
+				<figure itemprop="associatedMedia image" itemscope="" itemtype="http://schema.org/ImageObject" class="picture picture-cover ad-skyscraper-pusher">
+					<picture>
+						<source srcset="img/article-landscape.png 1x" media="all and (min-width: 991px)" type="image/jpeg">
+						<source srcset="img/article-landscape.png 1x" media="all and (min-width: 767px)" type="image/jpeg">
+						<source srcset="img/article-landscape.png 1x" media="(min-width: 0px)" type="image/jpeg">
+						<img class="picture" src="img/article-landscape.png" alt="">
+					</picture>
+				</figure>
+			</div>
+
+			<div class="row">
+				<aside class="col-md-4">
+
+					<!-- <div class=" article-picture article-picture-portrait">
+						<figure itemprop="associatedMedia image" itemscope="" itemtype="http://schema.org/ImageObject" class="picture picture-cover ad-skyscraper-pusher">
+							<picture>
+								<source srcset="img/article-portrait.png 1x" media="all and (min-width: 991px)" type="image/jpeg">
+								<source srcset="img/article-portrait.png 1x" media="all and (min-width: 767px)" type="image/jpeg">
+								<source srcset="img/article-portrait.png 1x" media="(min-width: 0px)" type="image/jpeg">
+								<img class="picture" src="img/article-portrait.png" alt="">
+							</picture>
+						</figure>
+					</div> -->
+
+					<div class="article-picture-caption">
+						<b>Photo: Leslie Nieslsen dans «Y a-t-il un flic pour sauver PME magazine?»</b> – C. Gailloud, DR
+						<hr>
+					</div>
+					<div class="article-infos article-infos-desktop">
+						<span class="article-infos-source">
+							PME magazine de juillet 2017<br>
+							Par <b>Sven Jorganssen</b>, 13563 signes
+						</span>
+						<a href="#">
+							<button class="btn btn-default">Ecrire à Sven</button>
+						</a>
+						<div class="sharebox">
+							<span class="sharebox-title">
+								Partager cet article
+							</span>
+							<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</aside>
+				<article class="col-md-8 article-content">
+					<h1 class="article-title">
+						Les PME doivent apprendre à manier les réseaux sociaux
+					</h1>
+					<p class="lead">
+						Ce manager à la fois goujat et tyran n’appartient pas au passé et sévit toujours dans les bureaux. Une espèce à manier avec fermeté selon boris mabillard.
+					</p>
+					<div class="article-infos article-infos-mobile">
+						<span class="article-infos-source">
+							PME magazine de juillet 2017<br>
+							Par <b>Sven Jorganssen</b>, 13563 signes
+						</span>
+						<a href="#">
+							<button class="btn btn-default">Ecrire à Sven</button>
+						</a>
+						<div class="sharebox">
+							<span class="sharebox-title">
+								Partager cet article
+							</span>
+							<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						</div>
+					</div>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia a ab aperiam molestias necessitatibus placeat saepe esse magnam. Suscipit placeat tempore, quibusdam! Eveniet eius autem ex reprehenderit laboriosam modi tempore. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+					</p>
+					<p>
+						Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. 
+					</p>
+					<p>
+						Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut.
+					</p>
+				</article>
+			</div>
+		</div>
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<a href="#">
+							<img src="img/logo.svg" alt="logo PME magazine" class="footer-logo">
+						</a>
+						<nav class="footer-nav">
+							<li><a href="#">Publicité</a></li> 
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Apps</a></li>
+							<li><a href="#">Impressum</a></li>
+							<li><a href="#">Protection des données</a></li>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+        
+		<script src="assets/lib/picturefill/picturefill.js"></script>
+		<script src="assets/lib/macy/dist/macy.js"></script>
+		{# // <script src="assets/lib/masonry/dist/masonry.pkgd.min.js"></script> #}
+
+		<script src="assets/js/main.js"></script>
+        <script src="assets/js/header.js"></script>
+        <script src="assets/js/actualites.js"></script>	
+
+		
+	</body>
+	
+</html>

@@ -9,6 +9,30 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/article.html.twig": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/article.html.twig",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Acta-Book.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Acta-Book.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Acta-Book.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Acta-Book.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Acta-Book.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Acta-Book.woff",
+		"oF": 0
+		},
 	"\/assets\/fonts\/AustinNewsText-Roman.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -61,6 +85,24 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/DuplicateSlab-Light.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/DuplicateSlab-LightItalic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/DuplicateSlab-LightItalic.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/DuplicateSlab-LightItalic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/DuplicateSlab-LightItalic.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/DuplicateSlab-LightItalic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/DuplicateSlab-LightItalic.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/DuplicateSlab-Medium.eot": {
@@ -3032,6 +3074,98 @@
 		"oAP": "\/assets\/lib\/bricks\/site\/.babelrc",
 		"oF": 0
 		},
+	"\/assets\/lib\/bricks\/site\/dist\/bundle.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/bundle-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/fonts\/ag.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/fonts\/ag.woff",
+		"oF": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/images\/demo\/fire.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/images\/demo\/fire.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/images\/demo\/reload.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/images\/demo\/reload.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/images\/footer\/cta.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/images\/footer\/cta.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/images\/header\/bricks.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/images\/header\/bricks.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/images\/header\/cta.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/images\/header\/cta.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/images\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/images\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/index.html",
+		"oF": 0
+		},
+	"\/assets\/lib\/bricks\/site\/dist\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/lib\/bricks\/site\/dist\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/assets\/lib\/bricks\/site\/gulpfile.js": {
 		"ft": 64,
 		"ma": 0,
@@ -4510,6 +4644,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/scss\/_article.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/css\/_article.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/scss\/_barbarian_reset.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4753,6 +4900,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/img\/article-landscape.png": {
+		"ft": 32768,
+		"iS": 26559,
+		"oA": 0,
+		"oAP": "\/img\/article-landscape.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/article-portrait.png": {
+		"ft": 32768,
+		"iS": 317260,
+		"oA": 0,
+		"oAP": "\/img\/article-portrait.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/dossier.png": {

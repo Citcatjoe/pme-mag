@@ -6,6 +6,10 @@ header
         margin-bottom: 40px;
     }
 
+    @include breakpoint(sm) { 
+        margin-bottom: 0;
+    }
+
 
 	img.header-logo
 	{
@@ -169,3 +173,5 @@ header
 		}
 	}
 }
+
+.nav-mobile-dropdown-toggler { cursor: pointer; }

@@ -25,7 +25,7 @@ $article-signature-color: #B1B1B1; //light gray
 $title-color: #333333;
 $title-color-ondark: #cacaca;
 
-$lead-color-ondark: #989898;
+$lead-color-ondark: #cacaca;
 
 //=====================================================================//
 // FONTS
@@ -66,11 +66,11 @@ $zModal: 300;
 //=====================================================================//
 @mixin breakpoint($class) {
   @if $class == xs {
-    @media (max-width: 500px) { @content; }
+    @media (max-width: 540px) { @content; }
   }
  
   @else if $class == sm {
-    @media (max-width: 767px) { @content; } 
+    @media (max-width: 768px) { @content; } 
   }
  
   @else if $class == md {
