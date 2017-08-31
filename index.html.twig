@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE HTML>
 
 <html{% if app.3 %} class="fonts-loaded"{% endif %}>
@@ -8,78 +6,77 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<style>
-		@font-face {
-			font-family: 'Duplicate Slab';
-			src: url('./assets/fonts/DuplicateSlab-Light.eot');
-			src: url('./assets/fonts/DuplicateSlab-Light.eot?#iefix') format('embedded-opentype'),
-				url('./assets/fonts/DuplicateSlab-Light.woff') format('woff'),
-				url('./assets/fonts/DuplicateSlab-Light.ttf') format('truetype');
-			font-weight: 300;
-			font-style: normal;
-		}
+			@font-face {
+				font-family: 'Duplicate Slab';
+				src: url('./assets/fonts/DuplicateSlab-Light.eot');
+				src: url('./assets/fonts/DuplicateSlab-Light.eot?#iefix') format('embedded-opentype'),
+					url('./assets/fonts/DuplicateSlab-Light.woff') format('woff'),
+					url('./assets/fonts/DuplicateSlab-Light.ttf') format('truetype');
+				font-weight: 300;
+				font-style: normal;
+			}
 
-		@font-face {
-			font-family: 'Duplicate Slab';
-			src: url('./assets/fonts/DuplicateSlab-RegularItalic.eot');
-			src: url('./assets/fonts/DuplicateSlab-RegularItalic.eot?#iefix') format('embedded-opentype'),
-				url('./assets/fonts/DuplicateSlab-RegularItalic.woff') format('woff'),
-				url('./assets/fonts/DuplicateSlab-RegularItalic.ttf') format('truetype');
-			font-weight: 400;
-			font-style: italic;
-		}
+			@font-face {
+				font-family: 'Duplicate Slab';
+				src: url('./assets/fonts/DuplicateSlab-RegularItalic.eot');
+				src: url('./assets/fonts/DuplicateSlab-RegularItalic.eot?#iefix') format('embedded-opentype'),
+					url('./assets/fonts/DuplicateSlab-RegularItalic.woff') format('woff'),
+					url('./assets/fonts/DuplicateSlab-RegularItalic.ttf') format('truetype');
+				font-weight: 400;
+				font-style: italic;
+			}
 
-		/*@font-face {
-			font-family: 'Duplicate Slab';
-			src: url('./assets/fonts/DuplicateSlab-LightItalic.eot');
-			src: url('./assets/fonts/DuplicateSlab-LightItalic.eot?#iefix') format('embedded-opentype'),
-				url('./assets/fonts/DuplicateSlab-LightItalic.woff') format('woff'),
-				url('./assets/fonts/DuplicateSlab-LightItalic.ttf') format('truetype');
-			font-weight: 300;
-			font-style: italic;
-		}*/
+			/*@font-face {
+				font-family: 'Duplicate Slab';
+				src: url('./assets/fonts/DuplicateSlab-LightItalic.eot');
+				src: url('./assets/fonts/DuplicateSlab-LightItalic.eot?#iefix') format('embedded-opentype'),
+					url('./assets/fonts/DuplicateSlab-LightItalic.woff') format('woff'),
+					url('./assets/fonts/DuplicateSlab-LightItalic.ttf') format('truetype');
+				font-weight: 300;
+				font-style: italic;
+			}*/
 
+			@font-face {
+				font-family: 'Duplicate Slab';
+				src: url('./assets/fonts/DuplicateSlab-Medium.eot');
+				src: url('./assets/fonts/DuplicateSlab-Medium.eot?#iefix') format('embedded-opentype'),
+					url('./assets/fonts/DuplicateSlab-Medium.woff') format('woff'),
+					url('./assets/fonts/DuplicateSlab-Medium.ttf') format('truetype');
+				font-weight: 500;
+				font-style: normal;
+			}
 
+			@font-face {
+				font-family: 'Duplicate Slab';
+				src: url('./assets/fonts/DuplicateSlab-Black.eot');
+				src: url('./assets/fonts/DuplicateSlab-Black.eot?#iefix') format('embedded-opentype'),
+					url('./assets/fonts/DuplicateSlab-Black.woff') format('woff'),
+					url('./assets/fonts/DuplicateSlab-Black.ttf') format('truetype');
+				font-weight: 900;
+				font-style: normal;
+			}
 
-		@font-face {
-			font-family: 'Duplicate Slab';
-			src: url('./assets/fonts/DuplicateSlab-Medium.eot');
-			src: url('./assets/fonts/DuplicateSlab-Medium.eot?#iefix') format('embedded-opentype'),
-				url('./assets/fonts/DuplicateSlab-Medium.woff') format('woff'),
-				url('./assets/fonts/DuplicateSlab-Medium.ttf') format('truetype');
-			font-weight: 500;
-			font-style: normal;
-		}
+			@font-face {
+				font-family: 'Austin News Text Roman';
+				src: url('./assets/fonts/AustinNewsText-Roman.eot');
+				src: url('./assets/fonts/AustinNewsText-Roman.eot?#iefix') format('embedded-opentype'),
+					url('./assets/fonts/AustinNewsText-Roman.woff') format('woff'),
+					url('./assets/fonts/AustinNewsText-Roman.ttf') format('truetype');
+				font-weight: 500;
+				font-style: normal;
+			}
 
-		@font-face {
-			font-family: 'Duplicate Slab';
-			src: url('./assets/fonts/DuplicateSlab-Black.eot');
-			src: url('./assets/fonts/DuplicateSlab-Black.eot?#iefix') format('embedded-opentype'),
-				url('./assets/fonts/DuplicateSlab-Black.woff') format('woff'),
-				url('./assets/fonts/DuplicateSlab-Black.ttf') format('truetype');
-			font-weight: 900;
-			font-style: normal;
-		}
-
-		@font-face {
-			font-family: 'Austin News Text Roman';
-			src: url('./assets/fonts/AustinNewsText-Roman.eot');
-			src: url('./assets/fonts/AustinNewsText-Roman.eot?#iefix') format('embedded-opentype'),
-				url('./assets/fonts/AustinNewsText-Roman.woff') format('woff'),
-				url('./assets/fonts/AustinNewsText-Roman.ttf') format('truetype');
-			font-weight: 500;
-			font-style: normal;
-		}
-
-		@font-face {
-			font-family: 'Acta Book';
-			src: url('./assets/fonts/Acta-Book.eot');
-			src: url('./assets/fonts/Acta-Book.eot?#iefix') format('embedded-opentype'),
-				url('./assets/fonts/Acta-Book.woff') format('woff'),
-				url('./assets/fonts/Acta-Book.ttf') format('truetype');
-			font-weight: normal;
-			font-style: normal;
-		}
+			@font-face {
+				font-family: 'Acta Book';
+				src: url('./assets/fonts/Acta-Book.eot');
+				src: url('./assets/fonts/Acta-Book.eot?#iefix') format('embedded-opentype'),
+					url('./assets/fonts/Acta-Book.woff') format('woff'),
+					url('./assets/fonts/Acta-Book.ttf') format('truetype');
+				font-weight: normal;
+				font-style: normal;
+			}
 		</style>
+
 		<script>
 		(function( w ){
 		function hasClass(element, cls){return (' '+element.className+' ').indexOf(' '+cls +' ') > -1;}var html=document.documentElement;
@@ -119,8 +116,7 @@
 		  });
 		}( this ));
 		</script>
-		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
-		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 	</head>
@@ -172,13 +168,10 @@
 
 		<section class="dossier is-not-centered">
 			<a class="dossier-inner" href="#">
-				<!-- <img src="img/dossier.png" alt=""> -->
 				<picture>
-					<!--[if IE 9]><video style="display: none;"><![endif]-->
 					<source srcset="img/1280x500.jpg 1x" media="all and (min-width: 991px)" type="image/jpeg">
 					<source srcset="img/992x400.jpg 1x" media="all and (min-width: 767px)" type="image/jpeg">
 					<source srcset="img/576x288.jpg 1x" media="(min-width: 0px)" type="image/jpeg">
-					<!--[if IE 9]></video><![endif]-->
 					<img class="picture" src="img/dossier.png" alt="">
 				</picture>
 				<div class="dossier-overlay"></div>
@@ -326,11 +319,6 @@
 								<span class="article-readmore">Lire</span>
 							</a>
 						</article>
-
-
-
-
-						
 				</div>
 			</div>
 		</section>
@@ -360,8 +348,6 @@
 							</div>
 						</article>
 					</div>
-
-					<!-- <div class="spacer"></div> -->
 					
 					<div class="col-lg-4">
 						<article class="article-sm">
@@ -427,9 +413,6 @@
 
 		<section class="rubrique rubrique-media">
 			<div class="container">
-				<!-- <div class="row">
-					<h3>Le rendez-vous vidéo</h3>
-				</div> -->
 				<div class="row rubrique-media-content">
 					<div class="col-lg-8">
 						<div class="video-wrapper embed-responsive embed-responsive-16by9">
@@ -495,21 +478,14 @@
 				</div>
 			</div>
 		</footer>
-		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
 		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-        
 		<script src="assets/lib/picturefill/picturefill.js"></script>
 		<script src="assets/lib/macy/dist/macy.js"></script>
-		{# // <script src="assets/lib/masonry/dist/masonry.pkgd.min.js"></script> #}
-
 		<script src="assets/js/main.js"></script>
         <script src="assets/js/header.js"></script>
         <script src="assets/js/actualites.js"></script>	
-
-		
+        
 	</body>
 	
 </html>

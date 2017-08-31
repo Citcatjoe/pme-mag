@@ -6659,7 +6659,9 @@ footer {
   line-height: 18px;
   font-weight: 300; }
   .article-picture-caption b {
-    color: #7b7b7b; }
+    color: #949494;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
   .article-picture-caption hr {
     /* Line 2: */
     border-top: 3px solid #912E3F;
